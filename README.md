@@ -1,7 +1,6 @@
 # 2025 Portfolio of Sean Ramirez
 This is the home of my new portfolio website.
-Hosted by Vercel\
-Link: Currently not live
+[Live Link](https://seanramirez.vercel.app) | Hosted by Vercel
 
 <p>
     <img src="https://img.shields.io/badge/JavaScript-f7df1e?style=for-the-badge&logo=javascript&logoColor=black" />
