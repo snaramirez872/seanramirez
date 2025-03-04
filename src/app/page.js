@@ -11,7 +11,7 @@ export default function Home() {
         <p className='intro'>I&apos;m a Software Developer specializing in Front End Web Development/Design using Next.js, React.js, and CSS.</p>
         <p className='extras'>When I&apos;m not coding I enjoy playing video games, photography, watching movies, and watching anime!</p>
         <p className='intro-to-projs'>I&apos;ve been making web applications for a couple of years now and they can be viewed by clicking &quot;Projects&quot; at the top right taping &quot;Projects&quot; below.</p>
-        <p className='right-now'>Right now, I'm doing the writing for SNAR-Dev and I am also developing Effectiveness Dex. More info can be found in the &quot;Projects&quot; tab.</p>
+        <p className='right-now'>Right now, I&apos;m doing the writing for SNAR-Dev and I&apos;m also developing Effectiveness Dex. More info can be found in the &quot;Projects&quot; tab.</p>
       </div>
       <div className='mobile-tabs'>
         <Link href='/projects'>Projects</Link>
