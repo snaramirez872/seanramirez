@@ -1,95 +1,26 @@
+import Link from "next/link";
 import Image from "next/image";
-import styles from "./page.module.css";
+import profilePic from './assets/images/profile.png';
+import { Icons } from "./components/Icons";
 
 export default function Home() {
+  const resumeLink = process.env.NEXT_PUBLIC_RESUME_LINK;
   return (
-    <div className={styles.page}>
-      <main className={styles.main}>
-        <Image
-          className={styles.logo}
-          src="/next.svg"
-          alt="Next.js logo"
-          width={180}
-          height={38}
-          priority
-        />
-        <ol>
-          <li>
-            Get started by editing <code>src/app/page.js</code>.
-          </li>
-          <li>Save and see your changes instantly.</li>
-        </ol>
-
-        <div className={styles.ctas}>
-          <a
-            className={styles.primary}
-            href="https://vercel.com/new?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            <Image
-              className={styles.logo}
-              src="/vercel.svg"
-              alt="Vercel logomark"
-              width={20}
-              height={20}
-            />
-            Deploy now
-          </a>
-          <a
-            href="https://nextjs.org/docs?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-            target="_blank"
-            rel="noopener noreferrer"
-            className={styles.secondary}
-          >
-            Read our docs
-          </a>
-        </div>
-      </main>
-      <footer className={styles.footer}>
-        <a
-          href="https://nextjs.org/learn?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <Image
-            aria-hidden
-            src="/file.svg"
-            alt="File icon"
-            width={16}
-            height={16}
-          />
-          Learn
-        </a>
-        <a
-          href="https://vercel.com/templates?framework=next.js&utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <Image
-            aria-hidden
-            src="/window.svg"
-            alt="Window icon"
-            width={16}
-            height={16}
-          />
-          Examples
-        </a>
-        <a
-          href="https://nextjs.org?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <Image
-            aria-hidden
-            src="/globe.svg"
-            alt="Globe icon"
-            width={16}
-            height={16}
-          />
-          Go to nextjs.org →
-        </a>
-      </footer>
+    <div className='homepage'>
+      <div className='words'>
+        <p className='intro'>I am a Software Developer specializing in Front End Web Development/Design using Next.js, React.js, and CSS.</p>
+        <p className='extras'>When I'm not coding, I enjoy playing video games, photography, watching movies, and watching anime!</p>
+        <p className='intro-to-projs'>I've been making web applications for a couple of years now and they can be viewed by clicking "Projects at the top right taping "Projects" below.</p>
+        <p className='right-now'>Right now, I'm doing the writing for SNAR-Dev and I am also developing Effectiveness Dex. More info can be found in the "Projects" tab.</p>
+      </div>
+      <div className='mobile-tabs'>
+        <Link href='/projects'>Projects</Link>
+        <Link href={resumeLink}>Resume</Link>
+      </div>
+      <div className='profile-card'>
+        <Image className='profile-picture' src={profilePic} alt='profile picture' height='170' width='170' />
+        <Icons />
+      </div>
     </div>
   );
 }
