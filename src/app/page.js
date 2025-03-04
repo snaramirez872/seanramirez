@@ -8,10 +8,10 @@ export default function Home() {
   return (
     <div className='homepage'>
       <div className='words'>
-        <p className='intro'>I am a Software Developer specializing in Front End Web Development/Design using Next.js, React.js, and CSS.</p>
-        <p className='extras'>When I'm not coding, I enjoy playing video games, photography, watching movies, and watching anime!</p>
-        <p className='intro-to-projs'>I've been making web applications for a couple of years now and they can be viewed by clicking "Projects at the top right taping "Projects" below.</p>
-        <p className='right-now'>Right now, I'm doing the writing for SNAR-Dev and I am also developing Effectiveness Dex. More info can be found in the "Projects" tab.</p>
+        <p className='intro'>I&apos;m a Software Developer specializing in Front End Web Development/Design using Next.js, React.js, and CSS.</p>
+        <p className='extras'>When I&apos;m not coding I enjoy playing video games, photography, watching movies, and watching anime!</p>
+        <p className='intro-to-projs'>I&apos;ve been making web applications for a couple of years now and they can be viewed by clicking &quot;Projects&quot; at the top right taping &quot;Projects&quot; below.</p>
+        <p className='right-now'>Right now, I'm doing the writing for SNAR-Dev and I am also developing Effectiveness Dex. More info can be found in the &quot;Projects&quot; tab.</p>
       </div>
       <div className='mobile-tabs'>
         <Link href='/projects'>Projects</Link>
