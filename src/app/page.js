@@ -1,6 +1,6 @@
 import Link from "next/link";
 import Image from "next/image";
-import profilePic from './assets/images/profile.png';
+import ProfilePic from '../../public/profile.png';
 import { Icons } from "./components/Icons";
 
 export default function Home() {
@@ -18,7 +18,7 @@ export default function Home() {
         <Link href={resumeLink}>Resume</Link>
       </div>
       <div className='profile-card'>
-        <Image className='profile-picture' src={profilePic} alt='profile picture' height='170' width='170' />
+        <Image className='profile-picture' src={ProfilePic} alt='profile picture' height='170' width='170' />
         <Icons />
       </div>
     </div>
