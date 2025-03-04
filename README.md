@@ -1,5 +1,5 @@
 # 2025 Portfolio of Sean Ramirez
-This is the home of my new portfolio website.
+This is the home of my new portfolio website.\
 [Live Link](https://seanramirez.vercel.app) | Hosted by Vercel
 
 <p>
