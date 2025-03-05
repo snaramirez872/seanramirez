@@ -1,0 +1,24 @@
+.project-cards {
+    width: 40vh;
+    padding: 3vh;
+    background-color: var(--bg-color-2);
+    border-radius: 3vh;
+}
+
+.title,
+.proj-title {
+    font-weight: 600;
+    font-size: var(--proj-title-size);
+    margin-top: 1vh;
+}
+
+.desc {
+    font-size: var(--proj-desc-size);
+}
+
+.desc .tools {
+    text-decoration: none;
+    color: var(--orange-500);
+    font-weight: 500;
+    font-size: var(--proj-tools-size);
+}

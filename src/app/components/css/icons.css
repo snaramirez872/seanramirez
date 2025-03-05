@@ -1,0 +1,13 @@
+.icons {
+    display: flex;
+    gap: 2rem;
+    margin-top: 1.25rem;
+}
+
+@media only screen and (max-width: 768px) {
+    .icons {
+        justify-content: center;
+        gap: 3vh;
+        margin-bottom: 8vh;
+    }
+}

@@ -1,0 +1,23 @@
+.back-button {
+    display: none;
+}
+
+@media only screen and (max-width: 768px) {
+    .back-button {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .back-button a {
+        display: block;
+        text-decoration: none;
+        text-align: center;
+        background-color: var(--orange-500);
+        color: white;
+        font-size: var(--font-size);
+        border-radius: 2vh;
+        margin: 2vh 15vh;
+        padding: 0.5vh 3vh;
+    }
+}

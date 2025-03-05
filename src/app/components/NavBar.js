@@ -1,5 +1,5 @@
 import Link from "next/link";
-
+import './css/navbar.css';
 export function NavBar() {
     const resumeLink = process.env.NEXT_PUBLIC_RESUME_LINK;
     return (

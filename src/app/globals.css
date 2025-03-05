@@ -1,8 +1,26 @@
 :root {
-  --background-color: black;
+  --orange-500: #f97316;
+  --emerald-300: #6ee7b7;
+  --text-color: white;
+  --bg-color: #1f2937;
+  --bg-color-2: #18202b;
+  --orange-500: #f97316;
+  --font-size: 20px;
+
+  /* project cards */
+  --proj-title-size: calc(var(--font-size) + 2px);
+  --proj-desc-size: calc(var(--font-size) - 2px);
+  --proj-tools-size: calc(var(--font-size) + 0.5px);
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: 'inter';
 }
 
 body {
-  background-color: var(--background-color);
+  background-color: var(--bg-color);
   color: white;
 }

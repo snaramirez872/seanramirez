@@ -1,0 +1,21 @@
+.cards-container {
+    display: grid;
+    place-items: center;
+    justify-content: center;
+    grid-template-columns: repeat(3, 1fr);
+    margin-top: 8vh;
+    padding: 0 2vh;
+    gap: 3vh;
+}
+
+@media only screen and (max-width: 768px) {
+    .cards-container {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        gap: 2.5vh;
+        margin-bottom: 7vh;
+        margin-top: 5vh;
+    }
+}
