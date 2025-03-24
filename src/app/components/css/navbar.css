@@ -52,11 +52,7 @@
 }
 
 @media only screen and (max-width: 768px) {
-    .logo {
-        margin-left: 0;
-    }
-
-    .links {
+    .navbar {
         display: none;
     }
 }
