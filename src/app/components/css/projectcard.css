@@ -1,6 +1,5 @@
 .project-cards {
     width: 40vh;
-    height: 28vh;
     padding: 3vh;
     background-color: var(--bg-color-2);
     border-radius: 3vh;
@@ -17,17 +16,18 @@
 .title,
 .proj-title {
     font-weight: 600;
-    font-size: var(--proj-title-size);
-    margin-top: 1vh;
+    font-size: var(--mbl-proj-title-size);
+    margin-top: 1.5vh;
+    margin-bottom: 1.5vh;
 }
 
 .desc {
-    font-size: var(--proj-desc-size);
+    font-size: var(--mbl-proj-desc-size);
 }
 
 .desc .tools {
     text-decoration: none;
     color: var(--orange-500);
     font-weight: 500;
-    font-size: var(--proj-tools-size);
+    font-size: var(--mbl-proj-tools-size);
 }

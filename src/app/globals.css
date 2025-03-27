@@ -6,11 +6,15 @@
   --bg-color-2: #18202b;
   --orange-500: #f97316;
   --font-size: 20px;
+  --mbl-font-size: 16px;
 
   /* project cards */
   --proj-title-size: calc(var(--font-size) + 2px);
   --proj-desc-size: calc(var(--font-size) - 2px);
   --proj-tools-size: calc(var(--font-size) + 0.5px);
+  --mbl-proj-title-size: calc(var(--mbl-font-size) + 2px);
+  --mbl-proj-desc-size: calc(var(--mbl-font-size) - 2px);
+  --mbl-proj-tools-size: calc(var(--mbl-font-size) + 0.5px);
 }
 
 * {
