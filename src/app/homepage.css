@@ -31,7 +31,6 @@
 
 .profile-card,
 .homepage-mobile,
-.profile-card-mbl,
 .mobile-buttons {
     display: flex;
     flex-direction: column;
@@ -56,10 +55,15 @@
 
     .homepage-mobile {
         display: block;
+        width: 100%;
     }
 
     .profile-card-mbl {
         margin-top: 3rem;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
     }
 
     .profile-card-mbl h2 {
@@ -86,11 +90,15 @@
         justify-content: center;
         align-items: center;
         padding: var(--img-padding);
-        width: 25vh;
+        width: 15rem;
         border-radius: 5vh;
         font-size: var(--font-size);
         text-decoration: none;
         color: black;
         background-color: var(--emerald-300);
+    }
+
+    .navbar-container {
+        display: none;
     }
 }

@@ -2,11 +2,15 @@ import Image from "next/image";
 import ProfilePic from '../../public/profile.png';
 import { Icons } from "./components/Icons";
 import { MobileButtons } from "./components/MobileButtons";
+import { NavBar } from "./components/NavBar";
 import './homepage.css';
 
 export default function Home() {
   return (
     <>
+      <div className='navbar-container'>
+        <NavBar />
+      </div>
       <div className='homepage-desktop'>
         <div className='words'>
           <p className='intro'>Hello! I&apos;m a <span className='keywords'>Software Developer</span> based in New Jersey. I prioritize <span className='keywords'>Front End Web Development</span>, but I also have some experience with <span className='keywords'>Full Stack Development</span>.</p>

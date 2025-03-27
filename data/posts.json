@@ -4,5 +4,12 @@
         "title": "Welcome to my Blog!",
         "content": "Here is where I will be posting my Developer Logs for all my personal projects moving foward.",
         "datetime": "March 26, 2025 12:57:32"
+    },
+    {
+        "id": "1",
+        "title": "Update on Effectiveness Dex",
+        "content": "The search feature has been fully implemented! When you search for a Pokémon the results that show up are the types that the Pokémon do double damage against when using Same Type Attack Boost (STAB) moves. Next step would be to make each type card clickable and display pages for each type that show a list of Pokémon of each type.",
+        "datetime": "March 27, 2025 14:36:47"
     }
+
 ]

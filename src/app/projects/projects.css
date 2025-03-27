@@ -8,6 +8,10 @@
     gap: 3vh;
 }
 
+.mbl-navbar-container {
+    display: none;
+}
+
 @media only screen and (max-width: 768px) {
     .cards-container {
         display: flex;
@@ -17,5 +21,13 @@
         gap: 2.5vh;
         margin-bottom: 7vh;
         margin-top: 5vh;
+    }
+
+    .navbar-container {
+        display: none;
+    }
+
+    .mbl-navbar-container {
+        display: inline-block;
     }
 }

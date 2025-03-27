@@ -5,6 +5,7 @@ import linkedin from '../../../public/icons/InBug-Black.png';
 import instagram from '../../../public/icons/Instagram_Glyph_Black.png';
 import codeIcon from '../../../public/icons/code-block-regular-24.png';
 import file from '../../../public/icons/file-regular-24.png';
+import chat from '../../../public/icons/chat-solid-24.png';
 import { Button } from "./Button";
 
 export function MobileButtons() {
@@ -35,6 +36,13 @@ export function MobileButtons() {
             >
                 <Image src={codeIcon} alt='Projects' />
                 Projects
+            </Link>
+            <Link 
+                href='/blog'
+                className='link-buttons'
+            >
+                <Image src={chat} alt='Blog' />
+                Blog
             </Link>
             <Button
                 href='https://instagram.com/seannybboy.jpg'
