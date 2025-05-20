@@ -14,7 +14,7 @@ export default function Home() {
       <div className='homepage-desktop'>
         <div className='words'>
           <p className='intro'>Hello! I&apos;m a <span className='keywords'>Software Developer</span> based in New Jersey. I prioritize <span className='keywords'>Front End Web Development</span>, but I also have some experience with <span className='keywords'>Full Stack Development</span>.</p>
-          <p className='right-now'>Right now, I&apos;m doing the writing for <span className="keywords">SNAR-Dev</span> and I&apos;m also developing <span className="keywords">Effectiveness Dex</span>. More info about these works and my other projects can be found in the &quot;Projects&quot; tab.</p>
+          <p className='right-now'>Right now I&apos;m enrolled in a <span className='keywords'>Medical Billing and Coding</span> online course at NJCU. I am also continuing to brush up on <span className="keywords">Website Development</span> through small-scale projects.</p>
         </div>
         <div className='profile-card'>
           <Image className='profile-picture' src={ProfilePic} alt='profile picture' height='170' width='170' />

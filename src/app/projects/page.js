@@ -39,14 +39,6 @@ export default function Page() {
                         <p className='desc'>A video game collection organizer that was built using <span className='tools'>React.js</span>, <span className='tools'>CSS</span>, and <a className='tools' href='https://firebase.google.com/docs/firestore' target='_blank' rel='noreferrer'>Cloud Firestore</a>.</p>
                     </ProjectCards>
                     <ProjectCards 
-                        title='SNAR-Dev'
-                        link='https://github.com/snaramirez872/snaramirez-dev'
-                        hover='GitHub Repo for App'
-                        
-                    >
-                        <p className='desc'>Still in-progress collection of coding tutorials. I am developing this using <span className='tools'>React.js</span> and <span className='tools'>CSS</span>.</p>
-                    </ProjectCards>
-                    <ProjectCards 
                         title='Effectiveness Dex'
                         link='https://github.com/snaramirez872/Effectiveness-Dex'
                         hover='GitHub Repo for App'
