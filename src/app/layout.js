@@ -1,5 +1,6 @@
 import "./globals.css";
 import { Footer } from "./components/Footer";
+import { Analytics } from '@vercel/analytics/next';
 
 export const metadata = {
   title: "Hello, World! My Name is Sean A Ramirez",
@@ -12,6 +13,7 @@ export default function RootLayout({ children }) {
       <body>
         {children}
         <Footer />
+        <Analytics />
       </body>
     </html>
   );
