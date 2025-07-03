@@ -46,14 +46,13 @@ export default function Page() {
                     >
                         <p className="desc">Pok&eacute;mon type effectiveness finder. Built using <span className="tools">Next.js</span>, <span className="tools">TailwindCSS</span>, and <a className="tools" href="https://pokeapi.co/docs/v2" target="_blank" rel="noreferrer">Pok&eacute;APi</a>.</p>
                     </ProjectCards>
-                    <ProjectCards 
-                        title='Mock Landing Page Interview Project'
-                        link='https://interviewalt.wpengine.com'
-                        hover='WPEngine Hosted Site'
-                        
-                    >
-                        <p className="desc">Mock landing page designed and implemented as part of the Interview process for <a className="tools" href="https://relevantlocalmedia.com">Relevant Local Media</a>. Built using <span className="tools">Elementor (WordPress)</span>, and a provided design brief for an actual past client.</p>
-                    </ProjectCards>
+                    <div className='project-cards'>
+                        <div className='proj-details'>
+                            <a className='mock-website' title='WPEngine Hosted Site' href='https://interviewalt.wpengine.com' target='_blank' rel='noreferrer'>LINK</a>
+                            <p className='title'>Mock Landing Page Interview Project</p>
+                            <p className='desc'>Mock landing page designed and implemented as part of the Interview process for <a className="tools" href="https://relevantlocalmedia.com" target='_blank' rel='noreferrer'>Relevant Local Media</a>. Built using <span className="tools">Elementor (WordPress)</span>, and a provided design brief for an actual past client.</p>
+                        </div>
+                    </div>
                 </div>
             </div>
         </>

@@ -12,6 +12,17 @@
     display: none;
 }
 
+.mock-website {
+    text-decoration: none;
+    color: var(--orange-500);
+    font-weight: 600;
+    font-size: var(--proj-tools-size);
+}
+
+.mock-website:hover {
+    font-size: calc(var(--proj-tools-size) + 0.5px);
+}
+
 @media only screen and (max-width: 768px) {
     .cards-container {
         display: flex;
