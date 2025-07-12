@@ -9,7 +9,6 @@ export function NavBar() {
                 <div className='links'>
                     <Link href='/' className='nav-link'>About Me</Link>
                     <Link href='/projects' className='nav-link'>Projects</Link>
-                    <Link href='/blog' className='nav-link'>Blog</Link>
                     <Link href={resumeLink} className='resume-link' target='_blank' rel='noreferrer'>Resume</Link>
                 </div>
             </div>

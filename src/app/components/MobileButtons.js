@@ -37,13 +37,6 @@ export function MobileButtons() {
                 <Image src={codeIcon} alt='Projects' />
                 Projects
             </Link>
-            <Link 
-                href='/blog'
-                className='link-buttons'
-            >
-                <Image src={chat} alt='Blog' />
-                Blog
-            </Link>
             <Button
                 href='https://instagram.com/seannybboy.jpg'
                 name='Instagram'
