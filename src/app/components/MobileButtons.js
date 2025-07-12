@@ -2,10 +2,8 @@ import Link from "next/link";
 import Image from "next/image";
 import email from '../../../public/icons/envelope-regular-24.png';
 import linkedin from '../../../public/icons/InBug-Black.png';
-import instagram from '../../../public/icons/Instagram_Glyph_Black.png';
 import codeIcon from '../../../public/icons/code-block-regular-24.png';
 import file from '../../../public/icons/file-regular-24.png';
-import chat from '../../../public/icons/chat-solid-24.png';
 import { Button } from "./Button";
 
 export function MobileButtons() {
@@ -37,12 +35,6 @@ export function MobileButtons() {
                 <Image src={codeIcon} alt='Projects' />
                 Projects
             </Link>
-            <Button
-                href='https://instagram.com/seannybboy.jpg'
-                name='Instagram'
-            >
-                <Image src={instagram} alt='Instagram' />
-            </Button>
         </div>
     );
 }
