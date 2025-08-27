@@ -11,7 +11,7 @@ export function MobileButtons() {
     return (
         <div className='mobile-buttons'>
             <Button
-                href='mailto:snaramirez872@gmail.com'
+                href='mailto:sean.ramirez.dev@gmail.com'
                 name='Email'
             >
                 <Image src={email} alt='Email' />
