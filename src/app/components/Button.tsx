@@ -1,6 +1,7 @@
 import Link from "next/link";
+import { ButtonProps } from "../../lib/types";
 
-export function Button({ name, href, children = null }) {
+export function Button({ name, href, children }: ButtonProps) {
     return (
         <>
             <Link 

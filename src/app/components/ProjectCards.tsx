@@ -1,9 +1,10 @@
 import Link from 'next/link';
 import Image from 'next/image';
+import { ProjectCardProps } from '../../lib/types';
 import github from '../../../public/icons/github-mark-white.png';
 import './css/projectcard.css';
 
-export function ProjectCards({ title, link, hover, desc, children }) {
+export function ProjectCards({ title, link, hover, children }: ProjectCardProps) {
     return (
         <div className='project-cards'>
             <div className='img-container'>
