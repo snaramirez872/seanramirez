@@ -1,5 +1,5 @@
 import Image from "next/image";
-import ProfilePic from '../../public/profile.png';
+import ProfilePic from "../lib/assets/profile.png";
 import { Icons } from "./components/Icons";
 import { MobileButtons } from "./components/MobileButtons";
 import { NavBar } from "./components/NavBar";
