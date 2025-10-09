@@ -1,8 +1,8 @@
 import Image from "next/image";
 import Link from "next/link";
-import email from '../../../public/icons/envelope.svg';
-import github from '../../../public/icons/github-mark-white.png';
-import linkedin from '../../../public/icons/In-White-96@2x.png';
+import email from '../../lib/assets/icons/envelope.svg';
+import github from '../../lib/assets/icons/github-mark-white.png';
+import linkedin from '../../lib/assets/icons/In-White-96@2x.png';
 import './css/icons.css';
 
 export function Icons() {
