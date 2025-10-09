@@ -1,9 +1,9 @@
 import Link from "next/link";
 import Image from "next/image";
-import email from '../../../public/icons/envelope-regular-24.png';
-import linkedin from '../../../public/icons/InBug-Black.png';
-import codeIcon from '../../../public/icons/code-block-regular-24.png';
-import file from '../../../public/icons/file-regular-24.png';
+import email from '../../lib/assets/icons/envelope-regular-24.png';
+import linkedin from '../../lib/assets/icons/InBug-Black.png';
+import codeIcon from '../../lib/assets/icons/code-block-regular-24.png';
+import file from '../../lib/assets/icons/file-regular-24.png';
 import { Button } from "./Button";
 
 export function MobileButtons() {
