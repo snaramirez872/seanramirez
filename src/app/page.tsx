@@ -14,7 +14,7 @@ export default function Home() {
       <div className='homepage-desktop'>
         <div className='words'>
           <p className='intro'>Hello! I&apos;m a <span className='keywords'>Software Developer</span> based in New Jersey. I prioritize <span className='keywords'>Front End Web Development</span>, but I also have some experience with <span className='keywords'>Full Stack Development</span>.</p>
-          <p className='right-now'>Right now I&apos;m pursuing a Software Engineering Internship with <a className='internship' href='https://www.withsentari.com/'>Sentari AI</a>. I am also currently enrolled in a Medical Billing and Coding online course at NJCU.</p>
+          <p className='right-now'>I&apos;m currently engaging in different opportunites, but I&apos;m always happy to connect with people in the industry! My email and LinkedIn are both available to the right.</p>
         </div>
         <div className='profile-card'>
           <Image className='profile-picture' src={ProfilePic} alt='profile picture' height='170' width='170' />
