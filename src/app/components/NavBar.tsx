@@ -1,7 +1,7 @@
 import Link from "next/link";
 import './css/navbar.css';
 export function NavBar() {
-    const resume = "https://drive.google.com/file/d/1IDc0xVyzyRZuKRxylz9WVaYMJieJLi3q/view?usp=sharing";
+    const resume = "https://drive.google.com/file/d/1ObNg-Kt-OhyQgQBS5zibIiv36giVA_Un/view?usp=sharing";
     return (
         <nav className='navbar'>
             <div className='nav-container'>
