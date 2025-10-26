@@ -10,21 +10,21 @@
   },
   "dependencies": {
     "@vercel/analytics": "latest",
-    "next": "latest",
-    "react": "latest",
-    "react-dom": "latest"
+    "next": "^16.0.0",
+    "react": "^19.2.0",
+    "react-dom": "^19.2.0"
   },
   "devDependencies": {
     "@eslint/eslintrc": "^3",
-    "@types/node": "^24.3.1",
-    "@types/react": "^19.1.12",
+    "@types/node": "^24.9.1",
+    "@types/react": "^19.2.2",
     "@typescript-eslint/eslint-plugin": "^8.42.0",
     "@typescript-eslint/parser": "^8.42.0",
     "autoprefixer": "^10.4.21",
-    "eslint-config-next": "^15.5.2",
+    "eslint-config-next": "^16.0.0",
     "eslint-plugin-tailwindcss": "^3.18.2",
     "postcss": "^8.5.6",
     "tailwindcss": "^3.4.17",
-    "typescript": "^5.9.2"
+    "typescript": "^5.9.3"
   }
 }
