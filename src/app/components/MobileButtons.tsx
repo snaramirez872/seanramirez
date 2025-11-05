@@ -7,7 +7,7 @@ import file from '../../lib/assets/icons/file-regular-24.png';
 import { Button } from "./Button";
 
 export function MobileButtons() {
-    const resume = "https://drive.google.com/file/d/1IDc0xVyzyRZuKRxylz9WVaYMJieJLi3q/view?usp=sharing";
+    const resume = "https://drive.google.com/file/d/1iIIlRDXKuEJkgeD5tOq1edP_uWvo_ug4/view?usp=sharing";
     return (
         <div className='mobile-buttons'>
             <Button
