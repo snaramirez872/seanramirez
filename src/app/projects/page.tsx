@@ -15,6 +15,7 @@ export default function Page() {
             </div>
             <div className='projects'>
                 <BackButton />
+                <h2>Personal Projects</h2>
                 <div className='cards-container'>
                     <ProjectCards
                         title="Definitive KH"
@@ -33,13 +34,6 @@ export default function Page() {
                     >
                         <p className="desc">Pok&eacute;mon type effectiveness finder. Built using <span className="tools">Next.js</span>, <span className="tools">TailwindCSS</span>, and <a className="tools" href="https://pokeapi.co/docs/v2" target="_blank" rel="noreferrer">Pok&eacute;APi</a>.</p>
                     </ProjectCards>
-                    <div className='project-cards'>
-                        <div className='proj-details'>
-                            <a className='mock-website' title='WPEngine Hosted Site' href='https://interviewalt.wpengine.com' target='_blank' rel='noreferrer'>LINK</a>
-                            <p className='title'>Mock Landing Page Interview Project</p>
-                            <p className='desc'>Mock landing page designed and implemented as part of the Interview process for <a className="tools" href="https://relevantlocalmedia.com" target='_blank' rel='noreferrer'>Relevant Local Media</a>. Built using <span className="tools">Elementor (WordPress)</span>, and a provided design brief for an actual past client.</p>
-                        </div>
-                    </div>
                     <ProjectCards 
                         title='SeanVGO'
                         link='https://github.com/snaramirez872/SeanVGO'
@@ -48,12 +42,6 @@ export default function Page() {
                     >
                         <p className='desc'>A video game collection organizer that was built using <span className='tools'>React.js</span>, <span className='tools'>CSS</span>, and <a className='tools' href='https://firebase.google.com/docs/firestore' target='_blank' rel='noreferrer'>Cloud Firestore</a>.</p>
                     </ProjectCards>
-                    <div className='project-cards'>
-                        <div className='proj-details'>
-                            <p className='title'>Court Notice Translation Service (Fall 2023 Prototype)</p>
-                            <p className='desc'>Translates NJ Court Notices into a selection of languages. Developed using <a className='tools' href='https://docs.pega.com/bundle/platform/page/platform/app-dev/dev-studio-overview.html' target='_blank' rel='noreferrer'>Pega Dev Studio</a> and <a className='tools' href='https://docs.aws.amazon.com/translate/latest/APIReference/API_TranslateDocument.html' target='_blank' rel='noreferrer'>AWS Translate API</a>.</p>
-                        </div>
-                    </div>
                     <ProjectCards 
                         title='Band Geeks News App'
                         link='https://github.com/ppauliuchenka02/bandgeeks-news-app'
@@ -61,6 +49,29 @@ export default function Page() {
                     >
                         <p className='desc'>A personal news app developed using <a className='tools' href='https://redwoodjs.com/docs/introduction' target='_blank' rel='noreferrer'>RedwoodJS</a> and <a className='tools' href='https://tailwindcss.com/docs' target='_blank' rel='noreferrer'>TailwindCSS</a>.</p>
                     </ProjectCards>
+                </div>
+                <h2>Professional Projects</h2>
+                <div className="cards-container">
+                    <div className='project-cards'>
+                        <div className='proj-details'>
+                            <p className='title'>Court Notice Translation Service (Fall 2023 Prototype)</p>
+                            <p className='desc'>Translates NJ Court Notices into a selection of languages. Developed using <a className='tools' href='https://docs.pega.com/bundle/platform/page/platform/app-dev/dev-studio-overview.html' target='_blank' rel='noreferrer'>Pega Dev Studio</a> and <a className='tools' href='https://docs.aws.amazon.com/translate/latest/APIReference/API_TranslateDocument.html' target='_blank' rel='noreferrer'>AWS Translate API</a>.</p>
+                        </div>
+                    </div>
+                    <div className='project-cards'>
+                        <div className='proj-details'>
+                            <a className='mock-website' title='WPEngine Hosted Site' href='https://interviewalt.wpengine.com' target='_blank' rel='noreferrer'>LINK</a>
+                            <p className='title'>Mock Landing Page Interview Project</p>
+                            <p className='desc'>Mock landing page designed and implemented as part of the Interview process for <a className="tools" href="https://relevantlocalmedia.com" target='_blank' rel='noreferrer'>Relevant Local Media</a>. Built using <span className="tools">Elementor (WordPress)</span>, and a provided design brief for an actual past client.</p>
+                        </div>
+                    </div>
+                    <div className='project-cards'>
+                        <div className='proj-details'>
+                            <a className='website' title='Quick & Quality Deli' href='https://quickandqualitydeli.com' target='_blank' rel='noreferrer'>LINK</a>
+                            <p className='title'>Website for Quick and Quality</p>
+                            <p className='desc'>Designed website for Quick and Quality deli located in West Philadelphia. Developed using Wordpress Elementor, designed branding for the business using Canva, and implemented SEO structuring.<br /><br />This website was developed while working as a Web Developer for <a className="tools" href="https://relevantlocalmedia.com" target='_blank' rel='noreferrer'>Relevant Local Media</a>.</p>
+                        </div>
+                    </div>
                 </div>
             </div>
         </>
