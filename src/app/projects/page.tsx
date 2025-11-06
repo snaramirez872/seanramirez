@@ -55,14 +55,21 @@ export default function Page() {
                     <div className='project-cards'>
                         <div className='proj-details'>
                             <p className='title'>Court Notice Translation Service (Fall 2023 Prototype)</p>
-                            <p className='desc'>Translates NJ Court Notices into a selection of languages. Developed using <a className='tools' href='https://docs.pega.com/bundle/platform/page/platform/app-dev/dev-studio-overview.html' target='_blank' rel='noreferrer'>Pega Dev Studio</a> and <a className='tools' href='https://docs.aws.amazon.com/translate/latest/APIReference/API_TranslateDocument.html' target='_blank' rel='noreferrer'>AWS Translate API</a>.</p>
+                            <p className='desc'>Translates NJ Court Notices into a selection of languages. Developed using <a className='tools' href='https://docs.pega.com/bundle/platform/page/platform/app-dev/dev-studio-overview.html' target='_blank' rel='noreferrer'>Pega Dev Studio</a> and <a className='tools' href='https://docs.aws.amazon.com/translate/latest/APIReference/API_TranslateDocument.html' target='_blank' rel='noreferrer'>AWS Translate API</a>.<br /><br />This was accomplished as part of NJIT's YWCC Senior Capstone Program during the Fall 2023 semester.</p>
+                        </div>
+                    </div>
+                    <div className='project-cards'>
+                        <div className='proj-details'>
+                            <a className='website' title='Journal with Sentari' href='https://journal.withsentari.com/' target='_blank' rel='noreferrer'>LINK</a>
+                            <p className='title'>Sentari AI Journal</p>
+                            <p className='desc'>Assisted in the development of Sentari AI's online journaling web app using <span className="tools">Next.js</span>, <span className="tools">Python Flask</span>, and <span className="tools">Supabase</span>. I also developed an internal analytics tool for the site.<br /><br />This website was all done while working as a Software Development Engineer Intern for <a className="tools" href="https://www.withsentari.com" target='_blank' rel='noreferrer'>Sentari AI</a>.</p>
                         </div>
                     </div>
                     <div className='project-cards'>
                         <div className='proj-details'>
                             <a className='website' title='Quick & Quality Deli' href='https://quickandqualitydeli.com' target='_blank' rel='noreferrer'>LINK</a>
                             <p className='title'>Website for Quick and Quality</p>
-                            <p className='desc'>Designed website for Quick and Quality deli located in West Philadelphia. Developed using Wordpress Elementor, designed branding for the business using Canva, and implemented SEO structuring.<br /><br />This website was developed while working as a Web Developer for <a className="tools" href="https://relevantlocalmedia.com" target='_blank' rel='noreferrer'>Relevant Local Media</a>.</p>
+                            <p className='desc'>Designed website for Quick and Quality deli located in West Philadelphia. Developed using Wordpress Elementor, designed branding for the business using Canva, and implemented SEO structuring.<br /><br />This website was developed while working as a Web Developer for <a className="tools" href="https://www.relevantlocalmedia.com" target='_blank' rel='noreferrer'>Relevant Local Media</a>.</p>
                         </div>
                     </div>
                 </div>
