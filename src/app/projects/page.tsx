@@ -59,8 +59,6 @@ export default function Page() {
                         </div>
                     </div>
                     <div className='project-cards'>
-                    </div>
-                    <div className='project-cards'>
                         <div className='proj-details'>
                             <a className='website' title='Quick & Quality Deli' href='https://quickandqualitydeli.com' target='_blank' rel='noreferrer'>LINK</a>
                             <p className='title'>Website for Quick and Quality</p>
