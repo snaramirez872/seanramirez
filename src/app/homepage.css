@@ -26,7 +26,7 @@
 .keywords {
     font-size: var(--proj-tools-size);
     font-weight: 600;
-    color: var(--orange-500);
+    color: var(--emerald-300);
 }
 
 .profile-card,
@@ -50,7 +50,7 @@
 
 .internship {
     text-decoration: none;
-    color: var(--orange-500);
+    color: var(--emerald-300);
     font-weight: 600;
     font-size: var(--proj-tools-size);
 }

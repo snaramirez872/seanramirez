@@ -28,13 +28,6 @@ export function MobileButtons() {
             >
                 <Image src={linkedin} alt='LinkedIn' width={24} height={24} />
             </Button>
-            <Link 
-                href='/projects'
-                className='link-buttons'
-            >
-                <Image src={codeIcon} alt='Projects' width={24} height={24} />
-                Projects
-            </Link>
         </div>
     );
 }

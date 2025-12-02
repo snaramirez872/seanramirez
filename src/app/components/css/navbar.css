@@ -1,6 +1,14 @@
 .navbar {
+    height: 10vh;
     padding: 1.25rem;
     width: 100%;
+    background-color: black;
+    z-index: 99;
+    position: sticky;
+    top: 0;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
+    padding: 1.25rem 4rem;
+    z-index: 9999; 
 }
 
 .navbar * {
@@ -10,7 +18,7 @@
 .nav-container {
     display: flex;
     justify-content: space-between;
-    place-items: center;
+    align-items: center;
 }
 
 .nav-container a {
@@ -18,17 +26,15 @@
 }
 
 .logo {
-    font-size: 2.25rem;
-    line-height: 2.5rem;
+    font-size: 2.75rem;
+    line-height: 3rem;
     font-weight: 700;
-    margin-left: 7vh;
     color: var(--text-color);
 }
 
 .links {
     display: flex;
     gap: 2.75rem;
-    margin-right: 7vh;
     font-size: 1.25rem;
     line-height: 1.75rem;
 }
@@ -47,12 +53,68 @@
     padding: 0.75rem;
     border-radius: 0.75rem;
 }
+
 .resume-link:hover {
     border-radius: 1.5rem;
 }
 
-@media only screen and (max-width: 768px) {
-    body[data-page="/"] .navbar {
+.mobile-menu-icon {
+    display: none;
+    cursor: pointer;
+}
+
+@media screen and (max-width: 768px) {
+    .navbar {
+        padding: 1.25rem 2rem;
+    }
+
+    .links {
         display: none;
+    }
+
+    .mobile-menu-icon {
+        display: block;
+    }
+
+    /* RIGHT-SIDE SLIDE-IN MENU */
+    .mobile-links {
+        position: fixed;
+        top: 10vh;
+        right: 0;
+        height: 100vh;
+        width: 70%;
+        max-width: 300px;
+
+        background-color: black;
+        display: flex;
+        flex-direction: column;
+        padding-top: 6rem;
+        transform: translateX(100%);
+        transition: transform 0.3s ease-in-out;
+        z-index: 999;
+    }
+
+    /* When menu is open */
+    .mobile-links.open {
+        transform: translateX(0);
+    }
+
+    .mobile-links a {
+        padding: 1rem 2rem;
+        font-size: 1.25rem;
+        text-decoration: none;
+        color: var(--text-color);
+    }
+
+    .mobile-links a:hover {
+        color: var(--emerald-300);
+    }
+
+    .mobile-links .resume-link {
+        background-color: var(--emerald-300);
+        color: black;
+        border-radius: 0.75rem;
+        margin: 1rem 2rem;
+        padding: 0.75rem 1rem;
     }
 }

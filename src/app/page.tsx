@@ -8,9 +8,6 @@ import './homepage.css';
 export default function Home() {
   return (
     <>
-      <div className='navbar-container'>
-        <NavBar />
-      </div>
       <div className='homepage-desktop'>
         <div className='words'>
           <p className='intro'>Hello! I&apos;m a <span className='keywords'>Software Developer</span> based in New Jersey. I prioritize <span className='keywords'>Front End Web Development</span>, but I also have some experience with <span className='keywords'>Full Stack Development</span>.</p>
@@ -30,8 +27,6 @@ export default function Home() {
             height='150' 
             width='150' 
           />
-          <h2>Sean A Ramirez</h2>
-          <p>Web Developer | Software Developer</p>
         </div>
         <MobileButtons />
       </div>
