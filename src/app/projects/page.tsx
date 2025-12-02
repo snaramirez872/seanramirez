@@ -1,21 +1,12 @@
 import { BackButton } from "../components/BackButton";
-import { ProjectCards } from "../components/ProjectCards";                                                                  
-import { NavBar } from "../components/NavBar";
-import { MobileNavBar } from "../components/MobileNavBar";                                                                                                                                      
+import { ProjectCards } from "../components/ProjectCards";                                                                                                                                                                                                        
 import './projects.css';
 
 export default function Page() {                            
     return (
-        <>
-            <div className='navbar-container'>
-                <NavBar />
-            </div>
-            <div className='mbl-navbar-container'>
-                <MobileNavBar />
-            </div>
             <div className='projects'>
                 <BackButton />
-                <h2>Personal Projects</h2>
+                <h1>Personal Projects</h1>
                 <div className='cards-container'>
                     <ProjectCards
                         title="Definitive KH"
@@ -50,7 +41,7 @@ export default function Page() {
                         <p className='desc'>A personal news app developed using <a className='tools' href='https://redwoodjs.com/docs/introduction' target='_blank' rel='noreferrer'>RedwoodJS</a> and <a className='tools' href='https://tailwindcss.com/docs' target='_blank' rel='noreferrer'>TailwindCSS</a>.</p>
                     </ProjectCards>
                 </div>
-                <h2>Professional Projects</h2>
+                <h1>Professional Projects</h1>
                 <div className="cards-container">
                     <div className='project-cards'>
                         <div className='proj-details'>
@@ -74,6 +65,5 @@ export default function Page() {
                     </div>
                 </div>
             </div>
-        </>
     );
 }

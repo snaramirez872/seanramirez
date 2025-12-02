@@ -3,13 +3,11 @@
     padding: 3vh;
     background-color: var(--bg-color-2);
     border-radius: 3vh;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1), 
-                0 2px 4px rgba(0, 0, 0, 0.08); /* Soft layered shadow */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1), 0 2px 4px rgba(0, 0, 0, 0.08);
 }
 
 .project-cards:hover {
-    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.15), 
-                0 4px 8px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.15), 0 4px 8px rgba(0, 0, 0, 0.1);
     transform: translateY(-2px);
 }
 
@@ -27,7 +25,7 @@
 
 .desc .tools {
     text-decoration: none;
-    color: var(--orange-500);
+    color: var(--emerald-300);
     font-weight: 500;
     font-size: var(--mbl-proj-tools-size);
 }

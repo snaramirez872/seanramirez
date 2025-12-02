@@ -15,7 +15,7 @@
 .mock-website,
 .website {
     text-decoration: none;
-    color: var(--orange-500);
+    color: var(--emerald-300);
     font-weight: 600;
     font-size: var(--proj-tools-size);
 }
@@ -24,7 +24,7 @@
     font-size: calc(var(--proj-tools-size) + 0.5px);
 }
 
-h2 {
+h1 {
     margin-top: 3rem;
     text-align: center;
 }
