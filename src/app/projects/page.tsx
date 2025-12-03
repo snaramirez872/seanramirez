@@ -1,11 +1,9 @@
-import { BackButton } from "../components/BackButton";
 import { ProjectCards } from "../components/ProjectCards";                                                                                                                                                                                                        
 import './projects.css';
 
 export default function Page() {                            
     return (
             <div className='projects'>
-                <BackButton />
                 <h1>Personal Projects</h1>
                 <div className='cards-container'>
                     <ProjectCards
