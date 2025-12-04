@@ -7,7 +7,7 @@ import { NavBar } from "./components/NavBar";
 export const metadata = {
   title: "Sean A Ramirez | Web Developer & Software Engineer | JavaScript, HTML, CSS, React.js, Next.js, Python, WordPress",
   description: "Portfolio of Sean A Ramirez, a web developer specialzing in JavaScript, HTML, CSS, React.js, Next.js, and WordPress, showcasing modern and responsive websites and front-end projects.",
-  metadataBase: new URL("https://seanramirez.vercel.app"), // temp url while waiting for domain
+  metadataBase: new URL("https://seanaramirez.dev/"),
   openGraph: {
     title: "Sean A Ramirez | Web Developer & Software Engineer | JavaScript, HTML, CSS, React.js, Next.js, Python, WordPress",
     description: "Portfolio of Sean A Ramirez, a web developer specialzing in JavaScript, HTML, CSS, React.js, Next.js, and WordPress, showcasing modern and responsive websites and front-end projects.",
