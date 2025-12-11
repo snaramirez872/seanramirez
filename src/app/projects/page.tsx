@@ -40,7 +40,7 @@ export default function Page() {
                     <p className='desc'>A personal news app developed using <Link className='tools' href='https://redwoodjs.com/docs/introduction' target='_blank' rel='noreferrer'>RedwoodJS</Link> and <Link className='tools' href='https://tailwindcss.com/docs' target='_blank' rel='noreferrer'>TailwindCSS</Link>.</p>
                 </ProjectCards>
             </div>
-            <h1>Professional Portfolio</h1>
+            <h1 className="header-two">Professional Portfolio</h1>
             <div className="cards-container">
                 <div className='project-cards'>
                     <div className='proj-details'>

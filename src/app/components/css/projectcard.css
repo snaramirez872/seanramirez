@@ -15,9 +15,13 @@
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1), 0 2px 4px rgba(0, 0, 0, 0.08);
 }
 
-.proj-link-card {
+.proj-link {
     text-decoration: none;
     color: white;
+}
+.proj-link:hover {
+    color: var(--emerald-300);
+    text-decoration: underline;
 }
 
 .position-cards h2 {

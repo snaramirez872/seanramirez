@@ -4,13 +4,13 @@ import './css/projectcard.css';
 
 export function ProjectCards({ title, link, hover, children }: ProjectCardProps) {
     return (
-        <Link className="proj-link-card" href={link} title={hover} target='_blank' rel='noreferrer'>
-            <div className='project-cards'>
+        <div className='project-cards'>
                 <div className='proj-details'>
-                    <h3 className='proj-title'>{title}</h3>
+                    <Link className="proj-link" href={link} title={hover} target='_blank' rel='noreferrer'>
+                        <h3 className='proj-title'>{title}</h3>
+                    </Link>
                     {children}
                 </div>
             </div>
-        </Link>
     );
 }
