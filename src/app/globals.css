@@ -6,7 +6,7 @@
   --bg-color-2: #0f111b;
   --orange-500: #f97316;
   --font-size: 20px;
-  --mbl-font-size: 16px;
+  --mbl-font-size: 18px;
 
   /* project cards */
   --proj-title-size: calc(var(--font-size) + 2px);
