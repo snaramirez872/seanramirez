@@ -1,6 +1,6 @@
-# 2025 Portfolio of Sean Ramirez
+# Portfolio of Sean Ramirez
 This is the home of my new portfolio website.\
-[Live Link](https://seanramirez.vercel.app) | Hosted on Vercel
+[Live Link](https://seanaramirez.dev/) | Hosted by Vercel
 
 <p>
     <img src="https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white" />
