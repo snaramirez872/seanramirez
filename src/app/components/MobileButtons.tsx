@@ -1,13 +1,11 @@
-import Link from "next/link";
 import Image from "next/image";
 import email from '../../lib/assets/icons/envelope-regular-24.png';
 import linkedin from '../../lib/assets/icons/InBug-Black.png';
-import codeIcon from '../../lib/assets/icons/code-block-regular-24.png';
 import file from '../../lib/assets/icons/file-regular-24.png';
 import { Button } from "./Button";
 
 export function MobileButtons() {
-    const resume = "https://drive.google.com/file/d/1TmsZ5eH-3Xaw-D_HhBqnNHKy4M6tgbMe/view?usp=sharing";
+    const resume = "https://drive.google.com/file/d/1pZ4HPIZw4IrVmqvzQNAjsDg7KgbyR-Gx/view?usp=sharing";
     return (
         <div className='mobile-buttons'>
             <Button
