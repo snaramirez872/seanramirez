@@ -7,7 +7,7 @@ export function ProjectCards({ title, link, hover, children }: ProjectCardProps)
         <div className='project-cards'>
                 <div className='proj-details'>
                     <Link className="proj-link" href={link} title={hover} target='_blank' rel='noreferrer'>
-                        <h3 className='proj-title'>{title}</h3>
+                        <h2 className='proj-title'>{title}</h2>
                     </Link>
                     {children}
                 </div>

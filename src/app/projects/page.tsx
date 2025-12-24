@@ -13,7 +13,7 @@ export default function Page() {
                     hover="GitHub Repo for App"
                 >
                     <p className="desc">
-                        Definitive KH is a slightly ambitious web project aimed at providing information about the Kingdom Hearts games to newcomers and returning players alike! Built using <span className="tools">Next.js</span> and <span className="tools">TailwindCSS</span>.
+                        A fanmade guide to the Kingdom Hearts games for newcomers and returning players alike.<br /><br />Built using <span className="tools">Next.js</span> and <span className="tools">TailwindCSS</span>.
                     </p>
                 </ProjectCards>
                 <ProjectCards 
@@ -22,7 +22,7 @@ export default function Page() {
                     hover='GitHub Repo for App'
                     
                 >
-                    <p className="desc">Pok&eacute;mon type effectiveness finder. Built using <span className="tools">Next.js</span>, <span className="tools">TailwindCSS</span>, and <Link className="tools" href="https://pokeapi.co/docs/v2" target="_blank" rel="noreferrer">Pok&eacute;APi</Link>.</p>
+                    <p className="desc">Pok&eacute;mon type effectiveness finder.<br /><br />Built using <span className="tools">Next.js</span>, <span className="tools">TailwindCSS</span>, and <Link className="tools" href="https://pokeapi.co/docs/v2" target="_blank" rel="noreferrer">Pok&eacute;APi</Link>.</p>
                 </ProjectCards>
                 <ProjectCards 
                     title='SeanVGO'
@@ -30,7 +30,7 @@ export default function Page() {
                     hover='GitHub Repo for App'
                     
                 >
-                    <p className='desc'>A video game collection organizer that was built using <span className='tools'>React.js</span>, <span className='tools'>CSS</span>, and <Link className='tools' href='https://firebase.google.com/docs/firestore' target='_blank' rel='noreferrer'>Cloud Firestore</Link>.</p>
+                    <p className='desc'>A video game collection organizer.<br /><br />Built using <span className='tools'>React.js</span>, <span className='tools'>CSS</span>, and <Link className='tools' href='https://firebase.google.com/docs/firestore' target='_blank' rel='noreferrer'>Cloud Firestore</Link>.</p>
                 </ProjectCards>
                 <ProjectCards 
                     title='Band Geeks News App'

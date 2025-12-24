@@ -15,6 +15,11 @@
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1), 0 2px 4px rgba(0, 0, 0, 0.08);
 }
 
+.position-cards:hover {
+    background-color: var(--bg-color);
+    color: var(--emerald-300);
+}
+
 .proj-link {
     text-decoration: none;
     color: white;

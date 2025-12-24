@@ -2,10 +2,11 @@ import Image from "next/image";
 import email from '../../lib/assets/icons/envelope-regular-24.png';
 import linkedin from '../../lib/assets/icons/InBug-Black.png';
 import file from '../../lib/assets/icons/file-regular-24.png';
+import code_block from '../../lib/assets/icons/code-block-regular-24.png';
 import { Button } from "./Button";
 
 export function MobileButtons() {
-    const resume = "https://drive.google.com/file/d/1pZ4HPIZw4IrVmqvzQNAjsDg7KgbyR-Gx/view?usp=sharing";
+    const resume = "https://drive.google.com/file/d/1JG1pyINO09wtQEmus5cbsBKMyqBb6If-/view?usp=sharing";
     return (
         <div className='mobile-buttons'>
             <Button
@@ -19,6 +20,12 @@ export function MobileButtons() {
                 name='Resume'
             >
                 <Image src={file} alt='Resume/CV' width={24} height={24} />
+            </Button>
+            <Button
+                href='/projects'
+                name='Projects'
+            >
+                <Image src={code_block} alt='Projects Page' width={24} height={24} />
             </Button>
             <Button
                 href='https://linkedin.com/in/seanaramirez/'
