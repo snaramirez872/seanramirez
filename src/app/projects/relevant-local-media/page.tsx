@@ -35,10 +35,10 @@ export default function RelevantLocalMediaWork() {
                 </ProjectCards>
                 <ProjectCards
                     title="The Sweet Sage Cafe & Boutique"
-                    link="https://sweetsagecafe.wpenginepowered.com"
-                    hover="Development Website for The Sweet Sage Cafe & Boutique"
+                    link="https://sweetsagecafe.com"
+                    hover="Website for The Sweet Sage Cafe & Boutique"
                 >
-                    <p className="desc">This website is not yet live as of December 15th, 2025.<br /><br />The Sweet Sage is a Cafe/Boutique located in North Redington Beach, FL and is one of Relevant Local Media's clients.<br /><br />This was developed using <span className="tools">WordPress Elementor</span> and <span className="tools">SEO</span> structuring was implemented with the help of the <span className="tools">Yoast</span> plugin in WordPress.<br /><br />This website was developed while working as a <span className="tools">Web Developer</span> under <Link className="tools" href="https://relevantlocalmedia.com/" target="_blank" rel="noreferrer">Relvant Local Media</Link>.</p>
+                    <p className="desc">The Sweet Sage is a Cafe/Boutique located in North Redington Beach, FL and is one of Relevant Local Media's clients.<br /><br />This was developed using <span className="tools">WordPress Elementor</span> and <span className="tools">SEO</span> structuring was implemented with the help of the <span className="tools">Yoast</span> plugin in WordPress.<br /><br />This website was developed while working as a <span className="tools">Web Developer</span> under <Link className="tools" href="https://relevantlocalmedia.com/" target="_blank" rel="noreferrer">Relvant Local Media</Link>.</p>
                 </ProjectCards>
                 <ProjectCards
                     title="JP McGurkee's Sandwich Shop"
@@ -46,6 +46,13 @@ export default function RelevantLocalMediaWork() {
                     hover="Development Website for JP McGurkee's Sandwich Shop"
                 >
                     <p className="desc">This website is not yet live as of December 15th, 2025.<br /><br />JP McGurkee's is a Sandwich Shop and Pizzeria located in Phoenix, AZ and is one of Relevant Local Media's clients.<br /><br />This was developed using <span className="tools">WordPress Elementor</span>, branding was designed using <span className="tools">Canva</span>, and <span className="tools">SEO</span> structuring was implemented with the help of the <span className="tools">Yoast</span> plugin in WordPress.<br /><br />This website was developed while working as a <span className="tools">Web Developer</span> under <Link className="tools" href="https://relevantlocalmedia.com/" target="_blank" rel="noreferrer">Relvant Local Media</Link>.</p>
+                </ProjectCards>
+                <ProjectCards
+                    title="Old Village Pizza"
+                    link="https://oldvillpizza.wpenginepowered.com"
+                    hover="Development Website for Old Village Pizza"
+                >
+                    <p className="desc">This website is not yet live as of December 29th, 2025.<br /><br />Old Village Pizza is a Pizzeria located in Westampton, NJ and is one of Relevant Local Media's clients.<br /><br />This was developed using <span className="tools">WordPress Elementor</span>, branding was designed using <span className="tools">Canva</span>, and <span className="tools">SEO</span> structuring was implemented with the help of the <span className="tools">Yoast</span> plugin in WordPress.<br /><br />This website was developed while working as a <span className="tools">Web Developer</span> under <Link className="tools" href="https://relevantlocalmedia.com/" target="_blank" rel="noreferrer">Relvant Local Media</Link>.</p>
                 </ProjectCards>
             </div>
         </div>
