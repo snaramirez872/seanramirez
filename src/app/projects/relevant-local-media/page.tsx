@@ -49,10 +49,10 @@ export default function RelevantLocalMediaWork() {
                 </ProjectCards>
                 <ProjectCards
                     title="Old Village Pizza"
-                    link="https://oldvillpizza.wpenginepowered.com"
-                    hover="Development Website for Old Village Pizza"
+                    link="https://oldvillagepizzanj.com/"
+                    hover="Website for Old Village Pizza"
                 >
-                    <p className="desc">This website is not yet live as of December 29th, 2025.<br /><br />Old Village Pizza is a Pizzeria located in Westampton, NJ and is one of Relevant Local Media's clients.<br /><br />This was developed using <span className="tools">WordPress Elementor</span>, branding was designed using <span className="tools">Canva</span>, and <span className="tools">SEO</span> structuring was implemented with the help of the <span className="tools">Yoast</span> plugin in WordPress.<br /><br />This website was developed while working as a <span className="tools">Web Developer</span> under <Link className="tools" href="https://relevantlocalmedia.com/" target="_blank" rel="noreferrer">Relvant Local Media</Link>.</p>
+                    <p className="desc">Old Village Pizza is a Pizzeria located in Westampton, NJ and is one of Relevant Local Media's clients.<br /><br />This was developed using <span className="tools">WordPress Elementor</span>, branding was designed using <span className="tools">Canva</span>, and <span className="tools">SEO</span> structuring was implemented with the help of the <span className="tools">Yoast</span> plugin in WordPress.<br /><br />This website was developed while working as a <span className="tools">Web Developer</span> under <Link className="tools" href="https://relevantlocalmedia.com/" target="_blank" rel="noreferrer">Relvant Local Media</Link>.</p>
                 </ProjectCards>
             </div>
         </div>
