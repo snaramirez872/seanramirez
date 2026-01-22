@@ -42,20 +42,6 @@ export default function Page() {
             </div>
             <h1 className="header-two">Professional Portfolio</h1>
             <div className="cards-container">
-                <div className='project-cards'>
-                    <div className='proj-details'>
-                        <h3 className='title'>Court Notice Translation Service (Fall 2023 Prototype)</h3>
-                        <p className='desc'>Translates NJ Court Notices into a selection of languages. Developed using <a className='tools' href='https://docs.pega.com/bundle/platform/page/platform/app-dev/dev-studio-overview.html' target='_blank' rel='noreferrer'>Pega Dev Studio</a> and <a className='tools' href='https://docs.aws.amazon.com/translate/latest/APIReference/API_TranslateDocument.html' target='_blank' rel='noreferrer'>AWS Translate API</a>.<br /><br />This was accomplished as part of NJIT's YWCC Senior Capstone Program during the Fall 2023 semester.</p>
-                    </div>
-                </div>
-                <Link className="position-links" href="/projects/sentari-ai">
-                    <div className='position-cards'>
-                        <div>
-                            <h2>Sentari AI</h2>
-                            <h3>Software Development Engineer Intern</h3>
-                        </div>
-                    </div>
-                </Link>
                 <Link className="position-links" href="/projects/relevant-local-media">
                     <div className='position-cards'>
                         <div>
@@ -64,6 +50,20 @@ export default function Page() {
                         </div>
                     </div>
                 </Link>
+                <Link className="position-links" href="/projects/sentari-ai">
+                    <div className='position-cards'>
+                        <div>
+                            <h2>Sentari AI</h2>
+                            <h3>Software Development Engineer Intern</h3>
+                        </div>
+                    </div>
+                </Link>
+                <div className='project-cards'>
+                    <div className='proj-details'>
+                        <h3 className='title'>Court Notice Translation Service (Fall 2023 Prototype)</h3>
+                        <p className='desc'>Translates NJ Court Notices into a selection of languages. Developed using <a className='tools' href='https://docs.pega.com/bundle/platform/page/platform/app-dev/dev-studio-overview.html' target='_blank' rel='noreferrer'>Pega Dev Studio</a> and <a className='tools' href='https://docs.aws.amazon.com/translate/latest/APIReference/API_TranslateDocument.html' target='_blank' rel='noreferrer'>AWS Translate API</a>.<br /><br />This was accomplished as part of NJIT's YWCC Senior Capstone Program during the Fall 2023 semester.</p>
+                    </div>
+                </div>
             </div>
         </div>
     );

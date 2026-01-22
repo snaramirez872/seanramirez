@@ -10,7 +10,7 @@ export default function SentariAIWork() {
                     link="https://journal.withsentari.com"
                     hover="Sentari AI Journal Web App"
                 >
-                    <p className="desc">I have made several contributions to the Sentari AI Journal from refactors to features like the history calendar. The tools we used were <span className="tools">Next.js</span>, <span className="tools">React Native</span>, <span className="tools">Tailwind CSS</span>, <span className="tools">Python Flask</span>, and <span className="tools">Supabase</span>.<br /><br />These contributions were made as a <span className="tools">Software Development Engineer Intern</span> under <Link className="tools" href="https://withsentari.com/" target="_blank" rel="noreferrer">Sentari AI.</Link></p>
+                    <p className="desc">As an Intern and Early Contributor my tasks spread many different areas, including early versions of the History and Insights pages.<br /><br />The tools we used were <span className="tools">Next.js</span>, <span className="tools">React Native</span>, <span className="tools">Tailwind CSS</span>, <span className="tools">Python Flask & FastAPI</span>, and <span className="tools">Supabase</span>.<br /><br />These contributions were made as a <span className="tools">Software Development Engineer Intern</span> under <Link className="tools" href="https://withsentari.com/" target="_blank" rel="noreferrer">Sentari AI.</Link></p>
                 </ProjectCards>
                 <div className='project-cards'>
                     <div className='proj-details'>
