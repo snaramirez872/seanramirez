@@ -59,6 +59,30 @@
     font-size: calc(var(--proj-tools-size) + 0.5px);
 }
 
+.proj-home-link {
+    display: inline-block;
+    margin-top: 1.5rem;
+    text-decoration: none;
+    background-color: var(--emerald-300);
+    color: black;
+    padding: 1vh 3vh;
+    border-radius: 2vh;
+}
+
+.proj-home-link:hover {
+    padding: 1vh 2vh;
+    border-radius: 2.5vh;
+}
+
+.rlm-home {
+    text-decoration: none;
+    color: var(--emerald-300);
+}
+
+.rlm-home:hover {
+    text-decoration: underline;
+}
+
 @media only screen and (max-width: 768px) {
     /* If mobile view, change to mobile layout */
     .homepage-desktop {
