@@ -8,7 +8,16 @@ export default function Page() {
             <h1>Personal Projects</h1>
             <div className='cards-container'>
                 <ProjectCards
-                    title="Definitive KH"
+                    title="SeanVGO v2 [STILL IN DEVELOPMENT]"
+                    link="https://github.com/snaramirez872/seanvgo-v2"
+                    hover="GitHub Repo for App"
+                >
+                    <p className="desc">
+                        An updated version of SeanVGO, an online video game organizer.<br /><br />Built using <span className="tools">Next.js</span>, <span className="tools">TypeScript</span>, <span className="tools">Python</span>, <span className="tools">FastAPI</span>, <span className="tools">TailwindCSS</span>, and <span className="tools">Supabase</span>.
+                    </p>
+                </ProjectCards>
+                <ProjectCards
+                    title="Definitive KH [STILL IN DEVELOPMENT]"
                     link="https://github.com/snaramirez872/definitiveKH"
                     hover="GitHub Repo for App"
                 >
@@ -23,14 +32,6 @@ export default function Page() {
                     
                 >
                     <p className="desc">Pok&eacute;mon type effectiveness finder.<br /><br />Built using <span className="tools">Next.js</span>, <span className="tools">TailwindCSS</span>, and <Link className="tools" href="https://pokeapi.co/docs/v2" target="_blank" rel="noreferrer">Pok&eacute;APi</Link>.</p>
-                </ProjectCards>
-                <ProjectCards 
-                    title='SeanVGO'
-                    link='https://github.com/snaramirez872/SeanVGO'
-                    hover='GitHub Repo for App'
-                    
-                >
-                    <p className='desc'>A video game collection organizer.<br /><br />Built using <span className='tools'>React.js</span>, <span className='tools'>CSS</span>, and <Link className='tools' href='https://firebase.google.com/docs/firestore' target='_blank' rel='noreferrer'>Cloud Firestore</Link>.</p>
                 </ProjectCards>
                 <ProjectCards 
                     title='Band Geeks News App'
