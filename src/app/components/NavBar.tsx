@@ -6,7 +6,7 @@ import './css/navbar.css';
 
 export function NavBar() {
     const [isMobileMenu, setIsMobileMenu] = useState(false);
-    const resume = "https://drive.google.com/file/d/1xwvu3BgdvfT3kgcLGG9Bv4cJyHtbcuPM/view?usp=sharing";
+    const resume = "https://drive.google.com/file/d/1rvuknsMQtivyeK2sU8rWoqd5UlAbigCN/view?usp=sharing";
 
     function toggleMobileMenu() {
         setIsMobileMenu(!isMobileMenu);
