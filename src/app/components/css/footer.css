@@ -1,7 +1,18 @@
-footer {
+.footer {
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-top: 20vh;
-    margin-bottom: 5vh;
+}
+
+footer {
+    margin-top: 100px;
+    margin-bottom: 30px;
+}
+
+@media screen and (max-width: 768px) {
+    footer {
+        justify-content: center;
+        text-align: center;
+        width: 75%;
+    }
 }

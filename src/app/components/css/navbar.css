@@ -1,14 +1,11 @@
 .navbar {
-    height: 10vh;
-    padding: 1.25rem;
+    height: 80px;
+    padding: 0 4rem;
     width: 100%;
-    background-color: black;
-    z-index: 99;
-    position: sticky;
     top: 0;
-    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
-    padding: 1.25rem 4rem;
-    z-index: 9999; 
+    z-index: 9999;
+    display: flex;
+    align-items: center;
 }
 
 .navbar * {
@@ -19,6 +16,7 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
+    width: 100%;
 }
 
 .nav-container a {
@@ -26,22 +24,24 @@
 }
 
 .logo {
-    font-size: 2.75rem;
+    font-size: 2.25rem;
     font-weight: 700;
     color: var(--text-color);
 }
 
 .links {
     display: flex;
-    gap: 2.75rem;
-    font-size: 1.25rem;
-    line-height: 1.75rem;
+    gap: 2rem;
+    font-size: 1.125rem;
+    line-height: 1.5rem;
 }
 
 .nav-link {
-    padding: 0.75rem;
+    padding: 0.5rem 0.75rem;
     color: var(--text-color);
+    border-radius: 0.5rem;
 }
+
 .nav-link:hover {
     color: var(--emerald-300);
 }
@@ -49,12 +49,13 @@
 .resume-link {
     color: black;
     background-color: var(--emerald-300);
-    padding: 0.75rem;
+    padding: 0.5rem 1rem;
     border-radius: 0.75rem;
+    font-weight: 500;
 }
 
 .resume-link:hover {
-    border-radius: 1.5rem;
+    border-radius: 1.25rem;
 }
 
 .mobile-menu-icon {
@@ -62,62 +63,110 @@
     cursor: pointer;
 }
 
+.mobile-menu-icon {
+    display: none;
+    cursor: pointer;
+}
+
+.drawer-header {
+    display: none;
+}
+
+.mobile-link, .mobile-resume-link {
+    display: none;
+}
+
 @media screen and (max-width: 768px) {
-    .navbar {
-        padding: 1.25rem 2rem;
-    }
-
-    .logo {
-        font-size: 2rem;
-    }
-
     .links {
         display: none;
     }
 
+    .navbar {
+        height: 60px;
+        padding: 0 1.5rem;
+    }
+
+    .nav-container {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        height: 100%;
+    }
+
+    .logo {
+        font-size: 1.75rem;
+        line-height: 1;
+    }
+
     .mobile-menu-icon {
         display: block;
+        color: var(--text-color);
+        height: 100%;
+        display: flex;
+        align-items: center;
     }
 
-    /* RIGHT-SIDE SLIDE-IN MENU */
-    .mobile-links {
+    /* Overlay */
+    .overlay {
         position: fixed;
-        top: 10vh;
+        inset: 0;
+        background: rgba(0, 0, 0, 0.25);
+        opacity: 0;
+        pointer-events: none;
+        transition: opacity 0.3s ease-in-out;
+        z-index: 9998;
+    }
+
+    .overlay.active {
+        opacity: 1;
+        pointer-events: all;
+    }
+
+    /* Drawer */
+    .mobile-drawer {
+        position: fixed;
+        top: 0;
         right: 0;
         height: 100vh;
-        width: 70%;
-        max-width: 300px;
-
-        background-color: black;
+        width: 280px;
+        backdrop-filter: blur(30px);
+        background: rgba(24, 27, 43, 0.6);
         display: flex;
         flex-direction: column;
-        padding-top: 6rem;
+        padding: 2rem;
+        gap: 2rem;
         transform: translateX(100%);
-        transition: transform 0.3s ease-in-out;
-        z-index: 999;
+        transition: transform 0.35s ease-in-out;
+        z-index: 9999;
     }
 
-    /* When menu is open */
-    .mobile-links.open {
+    .mobile-drawer.open {
         transform: translateX(0);
     }
 
-    .mobile-links a {
-        padding: 1rem 2rem;
-        font-size: 1.25rem;
-        text-decoration: none;
-        color: var(--text-color);
+    .drawer-header {
+        display: flex;
+        justify-content: flex-end;
     }
 
-    .mobile-links a:hover {
+    .mobile-link {
+        display: block;
+        font-size: 1.25rem;
+        color: var(--text-color);
+        text-decoration: none;
+    }
+
+    .mobile-link:hover {
         color: var(--emerald-300);
     }
 
-    .mobile-links .resume-link {
+    .mobile-resume-link {
+        display: block;
         background-color: var(--emerald-300);
-        color: black;
+        padding: 0.75rem;
         border-radius: 0.75rem;
-        margin: 1rem 2rem;
-        padding: 0.75rem 1rem;
+        color: black;
+        text-align: center;
+        text-decoration: none;
     }
 }
