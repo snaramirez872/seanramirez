@@ -8,7 +8,7 @@ export default function Page() {
             <h1>Personal Projects</h1>
             <div className='cards-container'>
                 <ProjectCards
-                    title="SeanVGO v2 [STILL IN DEVELOPMENT]"
+                    title="SeanVGO v2"
                     link="https://github.com/snaramirez872/seanvgo-v2"
                     hover="GitHub Repo for App"
                 >
