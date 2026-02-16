@@ -13,7 +13,7 @@ export default function Page() {
                     hover="GitHub Repo for App"
                 >
                     <p className="desc">
-                        An updated version of SeanVGO, an online video game organizer.<br /><br />Demo Account:<br /><b>Email:</b> svgo_demo@seanaramirez.dev<br /><b>Password:</b> GameVault_Demo@26<br /><br />Built using <span className="tools">Next.js</span>, <span className="tools">TypeScript</span>, <span className="tools">Python</span>, <span className="tools">FastAPI</span>, <span className="tools">TailwindCSS</span>, and <span className="tools">Supabase</span>.
+                        An updated version of SeanVGO, an online video game organizer.<br /><br />Demo Account:<br /><b>Email:</b> svgo_demo@seanaramirez.dev<br /><b>Password:</b> GameVault_Demo@26<br /><br /><b>Note: </b>Demo data may be modified by other visitors<br /><br />Built using <span className="tools">Next.js</span>, <span className="tools">TypeScript</span>, <span className="tools">Python</span>, <span className="tools">FastAPI</span>, <span className="tools">TailwindCSS</span>, and <span className="tools">Supabase</span>.
                     </p>
                 </ProjectCards>
                 <ProjectCards
