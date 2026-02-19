@@ -1,10 +1,34 @@
 import { ProjectCards } from "../../components/ProjectCards";
 import Link from "next/link";
+import "./rlm_page.css";
+
 export default function RelevantLocalMediaWork() {
     return (
-        <div>
+        <div className="rlm-page-body">
             <h1>Relevant Local Media</h1>
+            <p className="main-copy">As a web developer, my job is to design and support the websites for Relevant Local Media's clients across the USA. Below is a record of all the websites that I have been assigned to work on. Clicking the title of each card will take you to the corresponding website.</p>
             <div className="cards-container">
+                <ProjectCards
+                    title="Skeeter's Pub"
+                    link="https://skeeterspub.wpenginepowered.com"
+                    hover="Development Website for Skeeter's"
+                >
+                    <p className="desc">Skeeter's is located in Blackwood, NJ.<br /><br />This was developed using <span className="tools">WordPress Elementor</span> and <span className="tools">SEO</span> structuring was implemented with the help of the <span className="tools">Yoast</span> plugin in WordPress.<br /><br />This website was developed while working as a <span className="tools">Web Developer</span> under <Link className="tools" href="https://relevantlocalmedia.com/" target="_blank" rel="noreferrer">Relvant Local Media</Link>.</p>
+                </ProjectCards>
+                <ProjectCards
+                    title="Ali's Roti Shop"
+                    link="https://skeeterspub.wpenginepowered.com"
+                    hover="Development Website for Ali's Roti Shop - Plantation, FL"
+                >
+                    <p className="desc">Ali's Roti Shop is located in Plantation, FL.<br /><br />This was developed using <span className="tools">WordPress Elementor</span> and <span className="tools">SEO</span> structuring was implemented with the help of the <span className="tools">Yoast</span> plugin in WordPress.<br /><br />This website was developed while working as a <span className="tools">Web Developer</span> under <Link className="tools" href="https://relevantlocalmedia.com/" target="_blank" rel="noreferrer">Relvant Local Media</Link>.</p>
+                </ProjectCards>
+                <ProjectCards
+                    title="Rexy's Restaurant & Bar"
+                    link="https://eatrexys.com"
+                    hover="Website for Rexy's"
+                >
+                    <p className="desc">Rexy's is located in Haddon Township, NJ.<br /><br />This was developed using <span className="tools">WordPress Elementor</span> and <span className="tools">SEO</span> structuring was implemented with the help of the <span className="tools">Yoast</span> plugin in WordPress.<br /><br />This website was developed while working as a <span className="tools">Web Developer</span> under <Link className="tools" href="https://relevantlocalmedia.com/" target="_blank" rel="noreferrer">Relvant Local Media</Link>.</p>
+                </ProjectCards>
                 <ProjectCards
                     title="Carolina Carpet Cleaning of the Midlands, Inc."
                     link="https://carolinacarpetcleaning.com"
@@ -24,21 +48,21 @@ export default function RelevantLocalMediaWork() {
                     link="https://jpmcgurkees.wpenginepowered.com"
                     hover="Development Website for JP McGurkee's Sandwich Shop"
                 >
-                    <p className="desc">This website is not yet live as of December 15th, 2025.<br /><br />JP McGurkee's is a Sandwich Shop and Pizzeria located in Phoenix, AZ.<br /><br />This was developed using <span className="tools">WordPress Elementor</span>, branding was designed using <span className="tools">Canva</span>, and <span className="tools">SEO</span> structuring was implemented with the help of the <span className="tools">Yoast</span> plugin in WordPress.<br /><br />This website was developed while working as a <span className="tools">Web Developer</span> under <Link className="tools" href="https://relevantlocalmedia.com/" target="_blank" rel="noreferrer">Relvant Local Media</Link>.</p>
+                    <p className="desc">JP McGurkee's is located in Phoenix, AZ.<br /><br />This was developed using <span className="tools">WordPress Elementor</span>, branding was designed using <span className="tools">Canva</span>, and <span className="tools">SEO</span> structuring was implemented with the help of the <span className="tools">Yoast</span> plugin in WordPress.<br /><br />This website was developed while working as a <span className="tools">Web Developer</span> under <Link className="tools" href="https://relevantlocalmedia.com/" target="_blank" rel="noreferrer">Relvant Local Media</Link>.</p>
                 </ProjectCards>
                 <ProjectCards
                     title="The Sweet Sage Cafe & Boutique"
                     link="https://sweetsagecafe.com"
                     hover="Website for The Sweet Sage Cafe & Boutique"
                 >
-                    <p className="desc">The Sweet Sage is a Cafe/Boutique located in North Redington Beach, FL.<br /><br />This was developed using <span className="tools">WordPress Elementor</span> and <span className="tools">SEO</span> structuring was implemented with the help of the <span className="tools">Yoast</span> plugin in WordPress.<br /><br />This website was developed while working as a <span className="tools">Web Developer</span> under <Link className="tools" href="https://relevantlocalmedia.com/" target="_blank" rel="noreferrer">Relvant Local Media</Link>.</p>
+                    <p className="desc">The Sweet Sage is located in North Redington Beach, FL.<br /><br />This was developed using <span className="tools">WordPress Elementor</span> and <span className="tools">SEO</span> structuring was implemented with the help of the <span className="tools">Yoast</span> plugin in WordPress.<br /><br />This website was developed while working as a <span className="tools">Web Developer</span> under <Link className="tools" href="https://relevantlocalmedia.com/" target="_blank" rel="noreferrer">Relvant Local Media</Link>.</p>
                 </ProjectCards>
                 <ProjectCards
                     title="El Chullo Peruvian Restaurant"
                     link="https://elchullo.wpenginepowered.com"
                     hover="Development Website for El Chullo Peruvian Restaurant"
                 >
-                    <p className="desc">This website is not yet live as of December 11th, 2025.<br /><br />El Chullo is a Peruvian Restaurant located in Phoenix, AZ.<br /><br />This was developed using <span className="tools">WordPress Elementor</span> and <span className="tools">SEO</span> structuring was implemented with the help of the <span className="tools">Yoast</span> plugin in WordPress.<br /><br />This website was developed while working as a <span className="tools">Web Developer</span> under <Link className="tools" href="https://relevantlocalmedia.com/" target="_blank" rel="noreferrer">Relvant Local Media</Link>.</p>
+                    <p className="desc">El Chullo is located in Phoenix, AZ.<br /><br />This was developed using <span className="tools">WordPress Elementor</span> and <span className="tools">SEO</span> structuring was implemented with the help of the <span className="tools">Yoast</span> plugin in WordPress.<br /><br />This website was developed while working as a <span className="tools">Web Developer</span> under <Link className="tools" href="https://relevantlocalmedia.com/" target="_blank" rel="noreferrer">Relvant Local Media</Link>.</p>
                 </ProjectCards>
                 <ProjectCards
                     title="The Swiss Bar"
@@ -52,7 +76,7 @@ export default function RelevantLocalMediaWork() {
                     link="https://fourthstpizza.wpenginepowered.com"
                     hover="Development Website for 4th Street Pizza"
                 >
-                    <p className="desc">This website is not yet live as of December 11th, 2025.<br /><br />4th Street Pizza is a Pizzeria located in St. Petersburg, FL.<br /><br />This was developed using <span className="tools">WordPress Elementor</span>, branding was designed using <span className="tools">Canva</span>, and <span className="tools">SEO</span> structuring was implemented with the help of the <span className="tools">Yoast</span> plugin in WordPress.<br /><br />This website was developed while working as a <span className="tools">Web Developer</span> under <Link className="tools" href="https://relevantlocalmedia.com/" target="_blank" rel="noreferrer">Relvant Local Media</Link>.</p>
+                    <p className="desc">4th Street Pizza is a Pizzeria located in St. Petersburg, FL.<br /><br />This was developed using <span className="tools">WordPress Elementor</span>, branding was designed using <span className="tools">Canva</span>, and <span className="tools">SEO</span> structuring was implemented with the help of the <span className="tools">Yoast</span> plugin in WordPress.<br /><br />This website was developed while working as a <span className="tools">Web Developer</span> under <Link className="tools" href="https://relevantlocalmedia.com/" target="_blank" rel="noreferrer">Relvant Local Media</Link>.</p>
                 </ProjectCards>
                 <ProjectCards
                     title="Quick and Quality"

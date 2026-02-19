@@ -2,7 +2,7 @@ import { ProjectCards } from "../../components/ProjectCards";
 import Link from "next/link";
 export default function SentariAIWork() {
     return (
-        <div>
+        <div className="rlm-page-body">
             <h1>Sentari AI</h1>
             <div className="cards-container">
                 <ProjectCards 

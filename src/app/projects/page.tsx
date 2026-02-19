@@ -6,14 +6,15 @@ export default function Page() {
     return (
         <div className='projects'>
             <h1>Personal Projects</h1>
+            <p className="main-copy">The titles in each card is a link to either a GitHub Repo or the deployed project. In the case of the "Professional Portfolio" section, the first two cards when clicked will take you to pages that I made just for those specific roles.</p>
             <div className='cards-container'>
                 <ProjectCards
                     title="SeanVGO v2"
-                    link="https://github.com/snaramirez872/seanvgo-v2"
-                    hover="GitHub Repo for App"
+                    link="https://seanvgo-v2.vercel.app/"
+                    hover="Live link for SeanVGO v2"
                 >
                     <p className="desc">
-                        An updated version of SeanVGO, an online video game organizer.<br /><br />Demo Account:<br /><b>Email:</b> svgo_demo@seanaramirez.dev<br /><b>Password:</b> GameVault_Demo@26<br /><br /><b>Note: </b>Demo data may be modified by other visitors<br /><br />Built using <span className="tools">Next.js</span>, <span className="tools">TypeScript</span>, <span className="tools">Python</span>, <span className="tools">FastAPI</span>, <span className="tools">TailwindCSS</span>, and <span className="tools">Supabase</span>.
+                        <Link className="tools" href="https://github.com/snaramirez/seanvgo-v2" target="_blank" rel="noreferrer">GitHub Repo</Link><br /><br />An updated version of SeanVGO, an online video game organizer.<br /><br />Demo Account:<br /><b>Email:</b> svgo_demo@seanaramirez.dev<br /><b>Password:</b> GameVault_Demo@26<br /><br /><b>Note: </b>Demo data may be modified by other visitors<br /><br />Built using <span className="tools">Next.js</span>, <span className="tools">TypeScript</span>, <span className="tools">Python</span>, <span className="tools">FastAPI</span>, <span className="tools">TailwindCSS</span>, and <span className="tools">Supabase</span>.
                     </p>
                 </ProjectCards>
                 <ProjectCards
