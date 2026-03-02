@@ -6,12 +6,19 @@ export default function RelevantLocalMediaWork() {
     return (
         <div className="rlm-page-body">
             <h1>Relevant Local Media</h1>
-            <p className="main-copy">As a web developer, my job is to design and support the websites for Relevant Local Media's clients across the USA. Below is a record of all the websites that I have been assigned to work on. Clicking the title of each card will take you to the corresponding website.</p>
+            <p className="main-copy">As a web developer, my job is to design and support the websites for Relevant Local Media's clients across the USA. At times, I will also design the branding for clients for use on their website. Below is a record of all the websites that I have been assigned to work on. Clicking the title of each card will take you to the corresponding website.</p>
             <div className="cards-container">
                 <ProjectCards
+                    title="Old Fort Restaurant"
+                    link="https://oldfort.wpenginepowered.com"
+                    hover="Development Website for Old Fort Restaurant"
+                >
+                    <p className="desc">Old Fort is located in Cleveland, TN.<br /><br />This was developed using <span className="tools">WordPress Elementor</span>, <span className="tools">Canva</span>, and <span className="tools">SEO</span> structuring was implemented with the help of the <span className="tools">Yoast</span> plugin in WordPress.<br /><br />This website was developed while working as a <span className="tools">Web Developer</span> under <Link className="tools" href="https://relevantlocalmedia.com/" target="_blank" rel="noreferrer">Relvant Local Media</Link>.</p>
+                </ProjectCards>
+                <ProjectCards
                     title="Skeeter's Pub"
-                    link="https://skeeterspub.wpenginepowered.com"
-                    hover="Development Website for Skeeter's"
+                    link="https://skeeterspub.com"
+                    hover="Website for Skeeter's"
                 >
                     <p className="desc">Skeeter's is located in Blackwood, NJ.<br /><br />This was developed using <span className="tools">WordPress Elementor</span> and <span className="tools">SEO</span> structuring was implemented with the help of the <span className="tools">Yoast</span> plugin in WordPress.<br /><br />This website was developed while working as a <span className="tools">Web Developer</span> under <Link className="tools" href="https://relevantlocalmedia.com/" target="_blank" rel="noreferrer">Relvant Local Media</Link>.</p>
                 </ProjectCards>
