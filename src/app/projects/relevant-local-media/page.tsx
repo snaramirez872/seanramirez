@@ -6,26 +6,47 @@ export default function RelevantLocalMediaWork() {
     return (
         <div className="rlm-page-body">
             <h1>Relevant Local Media</h1>
-            <p className="main-copy">As a web developer, my job is to design and support the websites for Relevant Local Media's clients across the USA. At times, I will also design the branding for clients for use on their website. Below is a record of all the websites that I have been assigned to work on. Clicking the title of each card will take you to the corresponding website.</p>
+            <p className="main-copy">As a web developer, my job is to design and support the websites for Relevant Local Media's clients across the USA. At times, I will also design the branding for clients for use on their website. Below is a record of all the websites that I have been assigned to work on. Clicking the title of each card will take you to the corresponding website. All images and videos used are either provided by videographers hired by Relevant Local Media or stock from various online resources that we are authorized to use.</p>
             <div className="cards-container">
                 <ProjectCards
+                    title="US BanCard Merchant Services"
+                    link="https://usbancardtn.wpenginepowered.com"
+                    hover="Development Website for US BanCard"
+                >
+                    <p className="desc">US BanCard is a merchant servicer located in Brentwood, TN.<br /><br />This was developed using <span className="tools">WordPress Elementor</span> and <span className="tools">SEO</span> structuring was implemented with the help of the <span className="tools">Yoast</span> plugin in WordPress.<br /><br />This website was developed while working as a <span className="tools">Web Developer</span> under <Link className="tools" href="https://relevantlocalmedia.com/" target="_blank" rel="noreferrer">Relvant Local Media</Link>.</p>
+                </ProjectCards>
+                <ProjectCards
+                    title="Pine Island Seafood Co."
+                    link="pineislandsea.wpenginepowered.com"
+                    hover="Development Website for Pine Island Seafood Co."
+                >
+                    <p className="desc">Pine Island Seafood Co. is located in Matlacha, FL.<br /><br />This was developed using <span className="tools">WordPress Elementor</span>, <span className="tools">Canva</span>, and <span className="tools">SEO</span> structuring was implemented with the help of the <span className="tools">Yoast</span> plugin in WordPress.<br /><br />This website was developed while working as a <span className="tools">Web Developer</span> under <Link className="tools" href="https://relevantlocalmedia.com/" target="_blank" rel="noreferrer">Relvant Local Media</Link>.</p>
+                </ProjectCards>
+                <ProjectCards
                     title="Old Fort Restaurant"
-                    link="https://oldfort.wpenginepowered.com"
-                    hover="Development Website for Old Fort Restaurant"
+                    link="https://oldforttn.com"
+                    hover="Website for Old Fort Restaurant"
                 >
                     <p className="desc">Old Fort is located in Cleveland, TN.<br /><br />This was developed using <span className="tools">WordPress Elementor</span>, <span className="tools">Canva</span>, and <span className="tools">SEO</span> structuring was implemented with the help of the <span className="tools">Yoast</span> plugin in WordPress.<br /><br />This website was developed while working as a <span className="tools">Web Developer</span> under <Link className="tools" href="https://relevantlocalmedia.com/" target="_blank" rel="noreferrer">Relvant Local Media</Link>.</p>
                 </ProjectCards>
                 <ProjectCards
+                    title="New York Bagel Bakery"
+                    link="https://nybagelbakery.wpenginepowered.com"
+                    hover="Development Website for NY Bagel Bakery"
+                >
+                    <p className="desc">NY Bagel Bakery is located in Philadelphia, PA.<br /><br />This was developed using <span className="tools">WordPress Elementor</span> and <span className="tools">SEO</span> structuring was implemented with the help of the <span className="tools">Yoast</span> plugin in WordPress.<br /><br />This website was developed while working as a <span className="tools">Web Developer</span> under <Link className="tools" href="https://relevantlocalmedia.com/" target="_blank" rel="noreferrer">Relvant Local Media</Link>.</p>
+                </ProjectCards>
+                <ProjectCards
                     title="Skeeter's Pub"
                     link="https://skeeterspub.com"
-                    hover="Website for Skeeter's"
+                    hover="Website for Skeeter's Pub"
                 >
                     <p className="desc">Skeeter's is located in Blackwood, NJ.<br /><br />This was developed using <span className="tools">WordPress Elementor</span> and <span className="tools">SEO</span> structuring was implemented with the help of the <span className="tools">Yoast</span> plugin in WordPress.<br /><br />This website was developed while working as a <span className="tools">Web Developer</span> under <Link className="tools" href="https://relevantlocalmedia.com/" target="_blank" rel="noreferrer">Relvant Local Media</Link>.</p>
                 </ProjectCards>
                 <ProjectCards
                     title="Ali's Roti Shop"
-                    link="https://skeeterspub.wpenginepowered.com"
-                    hover="Development Website for Ali's Roti Shop - Plantation, FL"
+                    link="https://alisrotifl.com"
+                    hover="Website for Ali's Roti Shop - Plantation, FL"
                 >
                     <p className="desc">Ali's Roti Shop is located in Plantation, FL.<br /><br />This was developed using <span className="tools">WordPress Elementor</span> and <span className="tools">SEO</span> structuring was implemented with the help of the <span className="tools">Yoast</span> plugin in WordPress.<br /><br />This website was developed while working as a <span className="tools">Web Developer</span> under <Link className="tools" href="https://relevantlocalmedia.com/" target="_blank" rel="noreferrer">Relvant Local Media</Link>.</p>
                 </ProjectCards>
