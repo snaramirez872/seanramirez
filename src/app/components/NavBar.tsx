@@ -6,7 +6,7 @@ import './css/navbar.css';
 
 export function NavBar() {
     const [isOpen, setIsOpen] = useState(false);
-    const resume = "https://drive.google.com/file/d/1HYAJl6ibTOoY2WIoIYaX7YJZvMIJ_bqA/view?usp=sharing";
+    const resume = "https://drive.google.com/file/d/1ojtPZOia6mzuX6TBQL8Jxw8YcU1qU8xs/view?usp=sharing";
 
     return (
         <nav className='navbar'>

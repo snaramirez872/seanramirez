@@ -6,7 +6,7 @@ import code_block from '../../lib/assets/icons/code-block-regular-24.png';
 import { Button } from "./Button";
 
 export function MobileButtons() {
-    const resume = "https://drive.google.com/file/d/1HYAJl6ibTOoY2WIoIYaX7YJZvMIJ_bqA/view?usp=sharing";
+    const resume = "https://drive.google.com/file/d/1ojtPZOia6mzuX6TBQL8Jxw8YcU1qU8xs/view?usp=sharing";
     return (
         <div className='mobile-buttons'>
             <Button
