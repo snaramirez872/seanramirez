@@ -14,11 +14,11 @@ export default function Page() {
                     hover="Live link for SeanVGO v2"
                 >
                     <p className="desc">
-                        <Link className="tools" href="https://github.com/snaramirez/seanvgo-v2" target="_blank" rel="noreferrer">GitHub Repo</Link><br /><br />An updated version of SeanVGO, an online video game organizer.<br /><br />Demo Account:<br /><b>Email:</b> svgo_demo@seanaramirez.dev<br /><b>Password:</b> GameVault_Demo@26<br /><br /><b>Note: </b>Demo data may be modified by other visitors<br /><br />Built using <span className="tools">Next.js</span>, <span className="tools">TypeScript</span>, <span className="tools">Python</span>, <span className="tools">FastAPI</span>, <span className="tools">TailwindCSS</span>, and <span className="tools">Supabase</span>.
+                        <Link className="tools" href="https://github.com/snaramirez872/seanvgo-v2" target="_blank" rel="noreferrer">GitHub Repo</Link><br /><br />An updated version of SeanVGO, an online video game organizer.<br /><br />Demo Account:<br /><b>Email:</b> svgo_demo@seanaramirez.dev<br /><b>Password:</b> GameVault_Demo@26<br /><br /><b>Note: </b>Demo data may be modified by other visitors<br /><br />Built using <span className="tools">Next.js</span>, <span className="tools">TypeScript</span>, <span className="tools">Python</span>, <span className="tools">FastAPI</span>, <span className="tools">TailwindCSS</span>, and <span className="tools">Supabase</span>.
                     </p>
                 </ProjectCards>
                 <ProjectCards
-                    title="Definitive KH [STILL IN DEVELOPMENT]"
+                    title="Definitive KH"
                     link="https://github.com/snaramirez872/definitiveKH"
                     hover="GitHub Repo for App"
                 >
