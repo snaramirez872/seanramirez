@@ -1,0 +1,64 @@
+.projectspage {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+}
+
+.projectspage-main-content {
+    padding: 15px;
+    width: 100%;
+    max-width: 1200px;
+    box-sizing: border-box;
+}
+
+/* Responsive Typography */
+.projectspage-main-content h1 {
+    font-size: clamp(32px, 8vw, 50px);
+    margin-bottom: 10px;
+}
+
+.projectspage-main-content h2 {
+    font-size: clamp(24px, 5vw, 30px);
+    margin-top: 20px;
+}
+
+.personal-grid {
+    display: grid;
+    grid-template-columns: 1fr; 
+    gap: 20px;
+    padding: 10px 0;
+}
+
+.first-subheader,
+.second-subheader {
+    padding-bottom: 10px;
+}
+
+.second-subheader {
+    padding-top: 20px;
+}
+
+.company-name {
+    color: var(--primary);
+}
+
+/* Desktop & Tablets */
+@media (min-width: 768px) {
+    .personal-grid {
+        grid-template-columns: repeat(3, 1fr);
+        gap: 30px;
+    }
+    
+    .projectspage-main-content {
+        padding: 40px;
+    }
+}
+
+@media (max-width: 768px) {
+    h1,
+    .first-subheader,
+    .second-subheader {
+        text-align: center;
+    }
+}

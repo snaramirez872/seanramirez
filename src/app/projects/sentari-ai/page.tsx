@@ -1,24 +1,35 @@
-import { ProjectCards } from "../../components/ProjectCards";
-import Link from "next/link";
-export default function SentariAIWork() {
+import NonLinkProjectCards from "../components/reusable/NonLinkProjectCard";
+import PersonalProjectCards from "../components/reusable/PersonalProjectCards";
+import BackButtonHeader from "../components/reusable/BackButtonHeader";
+import "../projectspage.css";
+
+export default function SentariAIPage() {
     return (
-        <div className="rlm-page-body">
-            <h1>Sentari AI</h1>
-            <div className="cards-container">
-                <ProjectCards 
-                    title="Sentari AI Journal"
-                    link="https://journal.withsentari.com"
-                    hover="Sentari AI Journal Web App"
-                >
-                    <p className="desc">As an Intern and Early Contributor my tasks spread many different areas, including early versions of the History and Insights pages.<br /><br />The tools we used were <span className="tools">Next.js</span>, <span className="tools">React Native</span>, <span className="tools">Tailwind CSS</span>, <span className="tools">Python Flask & FastAPI</span>, and <span className="tools">Supabase</span>.<br /><br />These contributions were made as a <span className="tools">Software Development Engineer Intern</span> under <Link className="tools" href="https://withsentari.com/" target="_blank" rel="noreferrer">Sentari AI.</Link></p>
-                </ProjectCards>
-                <div className='project-cards'>
-                    <div className='proj-details'>
-                        <h3 className='title'>Sentari AI Analytics Internal Tool</h3>
-                        <p className='desc'>Built and shipped an internal analytics tool that measures various analytics for the Sentari AI Journal Web App including Total User Count and Daily Active Users.<br /><br />The tool works via custom APIs on the back end written in <span className="tools">Python</span> that queries <span className="tools">Supabase</span> and reports the data to the front end using <span className="tools">Next.js</span>. We designed the tool using <span className="tools">Tailwind CSS</span>.<br /><br />This was developed while being a <span className="tools">Software Development Engineer Intern</span> under <Link className="tools" href="https://withsentari.com/" target="_blank" rel="noreferrer">Sentari AI.</Link></p>
+        <div className="projectspage">
+            <div className="projectspage-main-content">
+                <BackButtonHeader url="/projects" />
+                <h1>Sentari AI</h1>
+                <h2 className="first-subheader">Software Development Engineer (SDE) Intern</h2>
+                <div className="projects-cards-container">
+                    <div className="professional-projects">
+                        <div className="personal-grid">
+                            <PersonalProjectCards
+                                url="https://journal.withsentari.com"
+                                title="Sentari AI Journal"
+                                techList="Next.js, TypeScript, Tailwind CSS, Python, FastAPI, Supabase"
+                            >
+                                <p className="description">An online voice journaling application. Assisted in the development of the History and Insights pages.<br /><br />This was accomplished while engaged in a contract of employment with <span className="company-name">Sentari AI</span> as a Software Development Engineer Intern.</p>
+                            </PersonalProjectCards>
+                            <NonLinkProjectCards
+                                title="Sentari AI Internal Analytics Dashboard"
+                                techList="Next.js, TypeScript, Tailwind CSS, Python, FastAPI, Supabase"
+                            >
+                                <p className="description">Led the development of an internal tool that visualizes various metrics such as how the app scales over time.<br /><br />This was accomplished while engaged in a contract of employment with <span className="company-name">Sentari AI</span> as a Software Development Engineer Intern.</p>
+                            </NonLinkProjectCards>
+                        </div>
                     </div>
                 </div>
             </div>
         </div>
-    );    
+    );
 }

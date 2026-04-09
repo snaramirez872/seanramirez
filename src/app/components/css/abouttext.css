@@ -1,0 +1,18 @@
+:root {
+    --font-size: 20px;
+    --mbl-font-size: 18px;
+}
+
+.about-text {
+    font-size: var(--font-size);
+}
+
+.text-links {
+    text-decoration: none;
+    color: var(--primary);
+}
+
+.text-links:hover {
+    text-decoration: underline;
+    color: var(--secondary);
+}

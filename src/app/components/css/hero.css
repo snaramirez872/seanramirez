@@ -1,0 +1,47 @@
+:root {
+    --hero-text-size: 50px;
+}
+
+.hero-section .hero-text h2 {
+    font-size: var(--hero-text-size);
+}
+
+.hero-section .hero-text h1 {
+    font-size: calc(var(--hero-text-size) + 52px);
+    white-space: nowrap;
+    display: flex;
+    gap: 0.3em;
+    align-items: baseline;
+}
+
+.positions-wrapper {
+    display: inline-block;
+    width: 9.5ch;
+    overflow: hidden;
+    vertical-align: bottom;
+    text-align: left;
+    position: relative;
+}
+
+.positions {
+    display: inline-block;
+    width: 100%;
+    transition: all 0.5s ease-in-out;
+    font-family: 'Courier New', Courier, monospace;
+    color: var(--primary);
+}
+
+.fade-up {
+    opacity: 1;
+    transform: translateY(0);
+}
+
+.fade-down {
+    opacity: 0;
+    transform: translateY(-20px);
+}
+
+.positions:not(.fade-up):not(.fade-down) {
+    opacity: 0;
+    transform: translateY(20px);
+}

@@ -1,0 +1,23 @@
+:root {
+    --bg-color-2: #0f111b;
+}
+
+.about-container {
+    background-color: var(--bg-color-2);
+    width: 700px;
+    padding: 50px;
+    border-radius: 30px;
+    -webkit-box-shadow: 10px 16px 26px 3px rgba(0,0,0,0.65); 
+    box-shadow: 10px 16px 26px 3px rgba(0,0,0,0.65);
+}
+
+.about-card-header {
+    display: flex;
+    align-items: center;
+    margin-bottom: 30px;
+    justify-content: space-between;
+}
+
+.about-card-header .profile-pic {
+    border-radius: 50%;
+}

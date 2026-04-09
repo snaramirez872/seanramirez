@@ -1,119 +1,126 @@
-import { ProjectCards } from "../../components/ProjectCards";
-import Link from "next/link";
-import "./rlm_page.css";
+import NonLinkProjectCards from "../components/reusable/NonLinkProjectCard";
+import PersonalProjectCards from "../components/reusable/PersonalProjectCards";
+import RLMProjCard from "./components/RLMProjCard";
+import BackButtonHeader from "../components/reusable/BackButtonHeader";
+import "../projectspage.css";
 
-export default function RelevantLocalMediaWork() {
+export default function RLMPage() {
     return (
-        <div className="rlm-page-body">
-            <h1>Relevant Local Media</h1>
-            <p className="main-copy">As a web developer, my job is to design and support the websites for Relevant Local Media's clients across the USA. At times, I will also design the branding for clients for use on their website. Below is a record of all the websites that I have been assigned to work on. Clicking the title of each card will take you to the corresponding website. All images and videos used are either provided by videographers hired by Relevant Local Media or stock from various online resources that we are authorized to use.</p>
-            <div className="cards-container">
-                <ProjectCards
-                    title="US BanCard Merchant Services"
-                    link="https://usbancardtn.wpenginepowered.com"
-                    hover="Development Website for US BanCard"
-                >
-                    <p className="desc">US BanCard is a merchant servicer located in Brentwood, TN.<br /><br />This was developed using <span className="tools">WordPress Elementor</span> and <span className="tools">SEO</span> structuring was implemented with the help of the <span className="tools">Yoast</span> plugin in WordPress.<br /><br />This website was developed while working as a <span className="tools">Web Developer</span> under <Link className="tools" href="https://relevantlocalmedia.com/" target="_blank" rel="noreferrer">Relvant Local Media</Link>.</p>
-                </ProjectCards>
-                <ProjectCards
-                    title="Pine Island Seafood Co."
-                    link="pineislandsea.wpenginepowered.com"
-                    hover="Development Website for Pine Island Seafood Co."
-                >
-                    <p className="desc">Pine Island Seafood Co. is located in Matlacha, FL.<br /><br />This was developed using <span className="tools">WordPress Elementor</span>, <span className="tools">Canva</span>, and <span className="tools">SEO</span> structuring was implemented with the help of the <span className="tools">Yoast</span> plugin in WordPress.<br /><br />This website was developed while working as a <span className="tools">Web Developer</span> under <Link className="tools" href="https://relevantlocalmedia.com/" target="_blank" rel="noreferrer">Relvant Local Media</Link>.</p>
-                </ProjectCards>
-                <ProjectCards
-                    title="Old Fort Restaurant"
-                    link="https://oldforttn.com"
-                    hover="Website for Old Fort Restaurant"
-                >
-                    <p className="desc">Old Fort is located in Cleveland, TN.<br /><br />This was developed using <span className="tools">WordPress Elementor</span>, <span className="tools">Canva</span>, and <span className="tools">SEO</span> structuring was implemented with the help of the <span className="tools">Yoast</span> plugin in WordPress.<br /><br />This website was developed while working as a <span className="tools">Web Developer</span> under <Link className="tools" href="https://relevantlocalmedia.com/" target="_blank" rel="noreferrer">Relvant Local Media</Link>.</p>
-                </ProjectCards>
-                <ProjectCards
-                    title="New York Bagel Bakery"
-                    link="https://nybagelbakery.wpenginepowered.com"
-                    hover="Development Website for NY Bagel Bakery"
-                >
-                    <p className="desc">NY Bagel Bakery is located in Philadelphia, PA.<br /><br />This was developed using <span className="tools">WordPress Elementor</span> and <span className="tools">SEO</span> structuring was implemented with the help of the <span className="tools">Yoast</span> plugin in WordPress.<br /><br />This website was developed while working as a <span className="tools">Web Developer</span> under <Link className="tools" href="https://relevantlocalmedia.com/" target="_blank" rel="noreferrer">Relvant Local Media</Link>.</p>
-                </ProjectCards>
-                <ProjectCards
-                    title="Skeeter's Pub"
-                    link="https://skeeterspub.com"
-                    hover="Website for Skeeter's Pub"
-                >
-                    <p className="desc">Skeeter's is located in Blackwood, NJ.<br /><br />This was developed using <span className="tools">WordPress Elementor</span> and <span className="tools">SEO</span> structuring was implemented with the help of the <span className="tools">Yoast</span> plugin in WordPress.<br /><br />This website was developed while working as a <span className="tools">Web Developer</span> under <Link className="tools" href="https://relevantlocalmedia.com/" target="_blank" rel="noreferrer">Relvant Local Media</Link>.</p>
-                </ProjectCards>
-                <ProjectCards
-                    title="Ali's Roti Shop"
-                    link="https://alisrotifl.com"
-                    hover="Website for Ali's Roti Shop - Plantation, FL"
-                >
-                    <p className="desc">Ali's Roti Shop is located in Plantation, FL.<br /><br />This was developed using <span className="tools">WordPress Elementor</span> and <span className="tools">SEO</span> structuring was implemented with the help of the <span className="tools">Yoast</span> plugin in WordPress.<br /><br />This website was developed while working as a <span className="tools">Web Developer</span> under <Link className="tools" href="https://relevantlocalmedia.com/" target="_blank" rel="noreferrer">Relvant Local Media</Link>.</p>
-                </ProjectCards>
-                <ProjectCards
-                    title="Rexy's Restaurant & Bar"
-                    link="https://eatrexys.com"
-                    hover="Website for Rexy's"
-                >
-                    <p className="desc">Rexy's is located in Haddon Township, NJ.<br /><br />This was developed using <span className="tools">WordPress Elementor</span> and <span className="tools">SEO</span> structuring was implemented with the help of the <span className="tools">Yoast</span> plugin in WordPress.<br /><br />This website was developed while working as a <span className="tools">Web Developer</span> under <Link className="tools" href="https://relevantlocalmedia.com/" target="_blank" rel="noreferrer">Relvant Local Media</Link>.</p>
-                </ProjectCards>
-                <ProjectCards
-                    title="Carolina Carpet Cleaning of the Midlands, Inc."
-                    link="https://carolinacarpetcleaning.com"
-                    hover="Website for Carolina Carpet Cleaning"
-                >
-                    <p className="desc">Carolina Carpet Cleaning is a Private and Commercial Cleaning Service located in West Columbia, SC.<br /><br />This was developed using <span className="tools">WordPress Elementor</span>, branding was designed using <span className="tools">Canva</span>, and <span className="tools">SEO</span> structuring was implemented with the help of the <span className="tools">Yoast</span> plugin in WordPress.<br /><br />This website was developed while working as a <span className="tools">Web Developer</span> under <Link className="tools" href="https://relevantlocalmedia.com/" target="_blank" rel="noreferrer">Relvant Local Media</Link>.</p>
-                </ProjectCards>
-                <ProjectCards
-                    title="Old Village Pizza"
-                    link="https://oldvillagepizzanj.com/"
-                    hover="Website for Old Village Pizza"
-                >
-                    <p className="desc">Old Village Pizza is a Pizzeria located in Westampton, NJ.<br /><br />This was developed using <span className="tools">WordPress Elementor</span>, branding was designed using <span className="tools">Canva</span>, and <span className="tools">SEO</span> structuring was implemented with the help of the <span className="tools">Yoast</span> plugin in WordPress.<br /><br />This website was developed while working as a <span className="tools">Web Developer</span> under <Link className="tools" href="https://relevantlocalmedia.com/" target="_blank" rel="noreferrer">Relvant Local Media</Link>.</p>
-                </ProjectCards>
-                <ProjectCards
-                    title="JP McGurkee's Sandwich Shop"
-                    link="https://jpmcgurkees.wpenginepowered.com"
-                    hover="Development Website for JP McGurkee's Sandwich Shop"
-                >
-                    <p className="desc">JP McGurkee's is located in Phoenix, AZ.<br /><br />This was developed using <span className="tools">WordPress Elementor</span>, branding was designed using <span className="tools">Canva</span>, and <span className="tools">SEO</span> structuring was implemented with the help of the <span className="tools">Yoast</span> plugin in WordPress.<br /><br />This website was developed while working as a <span className="tools">Web Developer</span> under <Link className="tools" href="https://relevantlocalmedia.com/" target="_blank" rel="noreferrer">Relvant Local Media</Link>.</p>
-                </ProjectCards>
-                <ProjectCards
-                    title="The Sweet Sage Cafe & Boutique"
-                    link="https://sweetsagecafe.com"
-                    hover="Website for The Sweet Sage Cafe & Boutique"
-                >
-                    <p className="desc">The Sweet Sage is located in North Redington Beach, FL.<br /><br />This was developed using <span className="tools">WordPress Elementor</span> and <span className="tools">SEO</span> structuring was implemented with the help of the <span className="tools">Yoast</span> plugin in WordPress.<br /><br />This website was developed while working as a <span className="tools">Web Developer</span> under <Link className="tools" href="https://relevantlocalmedia.com/" target="_blank" rel="noreferrer">Relvant Local Media</Link>.</p>
-                </ProjectCards>
-                <ProjectCards
-                    title="El Chullo Peruvian Restaurant"
-                    link="https://elchullo.wpenginepowered.com"
-                    hover="Development Website for El Chullo Peruvian Restaurant"
-                >
-                    <p className="desc">El Chullo is located in Phoenix, AZ.<br /><br />This was developed using <span className="tools">WordPress Elementor</span> and <span className="tools">SEO</span> structuring was implemented with the help of the <span className="tools">Yoast</span> plugin in WordPress.<br /><br />This website was developed while working as a <span className="tools">Web Developer</span> under <Link className="tools" href="https://relevantlocalmedia.com/" target="_blank" rel="noreferrer">Relvant Local Media</Link>.</p>
-                </ProjectCards>
-                <ProjectCards
-                    title="The Swiss Bar"
-                    link="https://https://swissbarreno.com"
-                    hover="Website for The Swiss Bar"
-                >
-                    <p className="desc">The Swiss Bar is a dive bar located in Reno, NV.<br /><br />This was developed using <span className="tools">WordPress Elementor</span>, branding was designed using <span className="tools">Canva</span>, and <span className="tools">SEO</span> structuring was implemented with the help of the <span className="tools">Yoast</span> plugin in WordPress.<br /><br />This website was developed while working as a <span className="tools">Web Developer</span> under <Link className="tools" href="https://relevantlocalmedia.com/" target="_blank" rel="noreferrer">Relvant Local Media</Link>.</p>
-                </ProjectCards>
-                <ProjectCards
-                    title="4th Street Pizza"
-                    link="https://fourthstpizza.wpenginepowered.com"
-                    hover="Development Website for 4th Street Pizza"
-                >
-                    <p className="desc">4th Street Pizza is a Pizzeria located in St. Petersburg, FL.<br /><br />This was developed using <span className="tools">WordPress Elementor</span>, branding was designed using <span className="tools">Canva</span>, and <span className="tools">SEO</span> structuring was implemented with the help of the <span className="tools">Yoast</span> plugin in WordPress.<br /><br />This website was developed while working as a <span className="tools">Web Developer</span> under <Link className="tools" href="https://relevantlocalmedia.com/" target="_blank" rel="noreferrer">Relvant Local Media</Link>.</p>
-                </ProjectCards>
-                <ProjectCards
-                    title="Quick and Quality"
-                    link="https://quickandqualitydeli.com/"
-                    hover="Website for Quick and Quality"
-                >
-                    <p className="desc">The first website I made with Relevant Local Media. Quick and Quality is a deli located in the Spruce Hill area of Philadelphia, PA.<br /><br />This was developed using <span className="tools">WordPress Elementor</span>, branding was designed using <span className="tools">Canva</span>, and <span className="tools">SEO</span> structuring was implemented with the help of the <span className="tools">Yoast</span> plugin in WordPress.<br /><br />This website was developed while working as a <span className="tools">Web Developer</span> under <Link className="tools" href="https://relevantlocalmedia.com/" target="_blank" rel="noreferrer">Relvant Local Media</Link>.</p>
-                </ProjectCards>
-            </div>
+        <div className="projectspage">
+           <div className="projectspage-main-content">
+                <BackButtonHeader url="/projects" />
+                <h1>Relevant Local Media</h1>
+                <h2 className="first-subheader">Web Developer</h2>
+                <div className="professional-projects">
+                    <div className="personal-grid">
+                        <RLMProjCard
+                            title="8th State Physical Therapy"
+                            url="https://eigthstreetpt.wpenginepowered.com"
+                            techList="WordPress, Elementor, CSS, Da Vinci Resolve"
+                        >
+                            <p className="description">This website is not yet live as of April 9th, 2026.</p>
+                        </RLMProjCard>
+                        <RLMProjCard
+                            title="8th State Pilates"
+                            url="https://eighthpilates.wpenginepowered.com"
+                            techList="WordPress, Elementor, CSS, Da Vinci Resolve"
+                        >
+                            <p className="description">This website is not yet live as of April 9th, 2026.</p>
+                        </RLMProjCard>
+                        <RLMProjCard
+                            title="US BanCard Merchant Services"
+                            url="https://usbancard.com"
+                            techList="WordPress, Elementor, CSS, Da Vinci Resolve"
+                        >
+                            <p className="description">This website went live on March 23rd, 2026.</p>
+                        </RLMProjCard>
+                        <RLMProjCard
+                            title="New York Bagel Bakery"
+                            url="https://nybagelbakery.wpenginepowered.com"
+                            techList="WordPress, Elementor, CSS"
+                        >
+                            <p className="description">This website is not yet live as of February 23rd, 2026.</p>
+                        </RLMProjCard>
+                        <RLMProjCard
+                            title="Skeeter's Pub"
+                            url="https://skeeterspub.com"
+                            techList="WordPress, Elementor, CSS"
+                        >
+                            <p className="description">This website went live on February 20th, 2026.</p>
+                        </RLMProjCard>
+                        <RLMProjCard
+                            title="Ali's Roti Shop"
+                            url="https://alisrotifl.com"
+                            techList="WordPress, Elementor, CSS"
+                        >
+                            <p className="description">This website went live on March 18th, 2026.</p>
+                        </RLMProjCard>
+                        <RLMProjCard
+                            title="Rexy's Restaurant & Bar"
+                            url="https://rexys.com"
+                            techList="WordPress, Elementor, CSS"
+                        >
+                            <p className="description">This website went live in February 2026.</p>
+                        </RLMProjCard>
+                        <RLMProjCard
+                            title="Carolina Carpet Cleaning of the Midlands, Inc."
+                            url="https://carolinacarpetcleaning.com"
+                            techList="WordPress, Elementor, CSS, Canva"
+                        >
+                            <p className="description">This website went live on January 20th, 2026.</p>
+                        </RLMProjCard>
+                        <RLMProjCard
+                            title="Old Village Pizza"
+                            url="https://oldvillagepizzanj.com"
+                            techList="WordPress, Elementor, CSS"
+                        >
+                            <p className="description">This website went live on January 16th, 2026.</p>
+                        </RLMProjCard>
+                        <RLMProjCard
+                            title="JP McGurkee's Sandwich Shop"
+                            url="https://jpmcgurkees.wpenginepowered.com"
+                            techList="WordPress, Elementor, CSS, Canva"
+                        >
+                            <p className="description">This website is not yet live as of December 17th, 2025.</p>
+                        </RLMProjCard>
+                        <RLMProjCard
+                            title="The Sweet Ssage Cafe & Boutique"
+                            url="https://sweetsagecafe.com"
+                            techList="WordPress, Elementor, CSS, Canva"
+                        >
+                            <p className="description">This website went live on January 2nd, 2026.</p>
+                        </RLMProjCard>
+                        <RLMProjCard
+                            title="El Chullo Peruvian Restaurant"
+                            url="https://elchullo.wpenginepowered.com"
+                            techList="WordPress, Elementor, CSS"
+                        >
+                            <p className="description">This website is not yet live as of November 26th, 2025.</p>
+                        </RLMProjCard>
+                        <RLMProjCard
+                            title="The Swiss Bar"
+                            url="https://swissbarreno.com"
+                            techList="WordPress, Elementor, CSS, Canva"
+                        >
+                            <p className="description">This website went live on December 18th, 2025.</p>
+                        </RLMProjCard>
+                        <RLMProjCard
+                            title="4th Street Pizza"
+                            url="https://4thstreetpizzas.com"
+                            techList="WordPress, Elementor, CSS"
+                        >
+                            <p className="description">This website went live on January 21st, 2026.</p>
+                        </RLMProjCard>
+                        <RLMProjCard
+                            title="Quick and Quality"
+                            url="https://quickandqualitydeli.com"
+                            techList="WordPress, Elementor, CSS, Canva"
+                        >
+                            <p className="description">This website went live on November 5th, 2025.</p>
+                        </RLMProjCard>
+                    </div>
+                </div>
+           </div>
         </div>
-    );    
+    );
 }

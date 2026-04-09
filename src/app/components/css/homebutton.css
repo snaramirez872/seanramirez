@@ -1,0 +1,43 @@
+:root {
+    --not-active: #979797;
+}
+
+.home-link {
+    text-decoration: none;
+    color: white;
+    width: 400px;
+}
+
+.home-link div {
+    border-bottom: 3px solid var(--not-active);
+    width: 400px;
+    padding: 10px 30px 10px 30px;
+}
+
+.home-link div p {
+    font-size: 30px;
+    color: var(--not-active)
+}
+
+.home-link:hover div {
+    width: 500px;
+    border-bottom: 3px solid var(--primary);
+}
+
+.home-link:hover div p {
+    color: var(--primary)
+}
+
+/* Home Menu Container */
+.HomeMenu {
+    padding-left: 40px;
+    padding-top: 20px;
+    width: 400px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.HomeMenu:hover {
+    width: 500px;
+}

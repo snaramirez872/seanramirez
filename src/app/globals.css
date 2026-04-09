@@ -1,12 +1,9 @@
 :root {
   --orange-500: #f97316;
-  --emerald-300: #41ffb3;
+  --primary: #41ffb3;
+  --secondary: #02a564;
   --text-color: white;
   --bg-color: #181b2b;
-  --bg-color-2: #0f111b;
-  --orange-500: #f97316;
-  --font-size: 20px;
-  --mbl-font-size: 18px;
 
   /* project cards */
   --proj-title-size: calc(var(--font-size) + 2px);

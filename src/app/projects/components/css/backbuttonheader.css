@@ -1,0 +1,18 @@
+.back-button-header {
+    padding: 15px 0;
+}
+
+.back-button-header a {
+    display: inline-flex;
+    align-items: center;
+    text-decoration: none;
+    background-color: rgb(255, 56, 56);
+    color: white;
+    padding: 10px;
+    border-radius: 10px;
+    font-size: var(--font-size);
+}
+
+.back-button-header a:hover {
+    background-color: rgb(161, 37, 37);
+}

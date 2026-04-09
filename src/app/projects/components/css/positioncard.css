@@ -1,0 +1,41 @@
+:root {
+    --bg-color-2: #0f111b;
+    --font-size: 18px;
+    --mbl-font-size: 16px;
+}
+
+.position-card-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+}
+
+.position-card {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    background-color: var(--bg-color-2);
+    box-shadow: 10px 16px 26px 3px rgba(0,0,0,0.65);
+    padding: 25px;
+    width: 100%;
+    max-width: 400px;
+    box-sizing: border-box;
+    border-radius: 20px;
+    transition: transform 0.3s ease;
+}
+
+.position-card:hover {
+    transform: translateY(-10px);
+}
+
+.position-card .company {
+    color: var(--primary);
+    font-size: 20px;
+}
+
+.position-card .position {
+    color: white;
+    font-size: var(--font-size);
+}
