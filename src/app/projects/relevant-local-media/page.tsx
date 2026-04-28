@@ -1,5 +1,3 @@
-import NonLinkProjectCards from "../components/reusable/NonLinkProjectCard";
-import PersonalProjectCards from "../components/reusable/PersonalProjectCards";
 import RLMProjCard from "./components/RLMProjCard";
 import BackButtonHeader from "../components/reusable/BackButtonHeader";
 import "../projectspage.css";
@@ -14,14 +12,28 @@ export default function RLMPage() {
                 <div className="professional-projects">
                     <div className="personal-grid">
                         <RLMProjCard
-                            title="8th State Physical Therapy"
+                            title="Lexi J's Boutique"
+                            url="https://lexijsboutique.wpenginepowered.com"
+                            techList="WordPress, Elementor, CSS"
+                        >
+                            <p className="description">This website is not yet live as of April 27th, 2026.</p>
+                        </RLMProjCard>
+                        <RLMProjCard
+                            title="Banjo's BBQ"
+                            url="https://eigthstreetpt.wpenginepowered.com"
+                            techList="WordPress, Elementor, CSS"
+                        >
+                            <p className="description">This website went live on April 27th, 2026.</p>
+                        </RLMProjCard>
+                        <RLMProjCard
+                            title="Charleston Movement Co. Physical Therapy"
                             url="https://eigthstreetpt.wpenginepowered.com"
                             techList="WordPress, Elementor, CSS, Da Vinci Resolve"
                         >
                             <p className="description">This website is not yet live as of April 9th, 2026.</p>
                         </RLMProjCard>
                         <RLMProjCard
-                            title="8th State Pilates"
+                            title="Charleston Movement Co. Pilates"
                             url="https://eighthpilates.wpenginepowered.com"
                             techList="WordPress, Elementor, CSS, Da Vinci Resolve"
                         >
@@ -36,10 +48,10 @@ export default function RLMPage() {
                         </RLMProjCard>
                         <RLMProjCard
                             title="Pine Island Seafood Co."
-                            url="https://pineislandsea.wpenginepowered.com"
+                            url="https://pineislandseafoodco.com"
                             techList="WordPress, Elementor, CSS, Canva"
                         >
-                            <p className="description">This website is not yet live as of April 10th, 2026.</p>
+                            <p className="description">This website went live on April 28th, 2026.</p>
                         </RLMProjCard>
                         <RLMProjCard
                             title="Old Fort"
@@ -50,10 +62,10 @@ export default function RLMPage() {
                         </RLMProjCard>
                         <RLMProjCard
                             title="New York Bagel Bakery"
-                            url="https://nybagelbakery.wpenginepowered.com"
+                            url="https://newyorkbagelspa.com"
                             techList="WordPress, Elementor, CSS"
                         >
-                            <p className="description">This website is not yet live as of February 23rd, 2026.</p>
+                            <p className="description">This website went live on April 27th, 2026.</p>
                         </RLMProjCard>
                         <RLMProjCard
                             title="Skeeter's Pub"
