@@ -36,6 +36,15 @@ export default function ProjectsPage() {
                         <h2 className="second-subheader">Personal Projects</h2>
                         <div className="personal-grid">
                             <PersonalProjectCards 
+                                url="https://effectiveness-dex.vercel.app"
+                                title="Effectiveness Dex [in progress]"
+                                techList="Next.js, TypeScript, CSS, PokeAPI"
+                            >
+                                <p className="description">
+                                    An online search tool used to simplify the Pok&eacute;mon Type Chart.
+                                </p>
+                            </PersonalProjectCards>
+                            <PersonalProjectCards 
                                 url="https://seanvgo-v2.vercel.app/login"
                                 title="SeanVGO v2"
                                 techList="Next.js, TypeScript, Tailwind CSS, Python, FastAPI, Supabase"
@@ -57,15 +66,6 @@ export default function ProjectsPage() {
                             >
                                 <p className="description">
                                     A fanmade guide to the Kingdom Hearts series for newcomers and returning players alike.
-                                </p>
-                            </PersonalProjectCards>
-                            <PersonalProjectCards 
-                                url="https://github.com/snaramirez872/effectiveness-dex"
-                                title="Effectiveness Dex"
-                                techList="Next.js, TypeScript, Tailwind CSS, PokeAPI"
-                            >
-                                <p className="description">
-                                    An online guide to help Pok&eacute;mon newcomers and returning players determine type match-ups for battling.
                                 </p>
                             </PersonalProjectCards>
                             <PersonalProjectCards 
