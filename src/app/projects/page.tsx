@@ -28,7 +28,7 @@ export default function ProjectsPage() {
                                 title="Court Notice Translation Service Prototype"
                                 techList="Pega, AWS Translate Document API"
                             >
-                                <p className="description">Translates NJ Court Notices into a selection of languages. This was accomplished as part of the NJIT YWCC Senior Capstone Program in the Fall 2023 Semester.</p>
+                                <p className="description">Translates NJ Court Notices into a selection of languages. This was accomplished as part of the NJIT YWCC Senior Capstone Program in the Fall 2023 Semester under the guidance of New Jersey Courts.</p>
                             </NonLinkProjectCards>
                         </div>
                     </div>
