@@ -131,7 +131,7 @@ export default function RLMPage() {
                             <p className="description">This website is not yet live as of December 17th, 2025.</p>
                         </RLMProjCard>
                         <RLMProjCard
-                            title="The Sweet Ssage Cafe & Boutique"
+                            title="The Sweet Sage Cafe & Boutique"
                             url="https://sweetsagecafe.com"
                             techList="WordPress, Elementor, CSS, Canva"
                         >
