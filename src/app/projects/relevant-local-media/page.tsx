@@ -12,6 +12,13 @@ export default function RLMPage() {
                 <div className="professional-projects">
                     <div className="personal-grid">
                         <RLMProjCard
+                            title="Blue Jeans Pizza, Pasta, and Wings"
+                            url="https://bluejeansga.wpenginepowered.com/"
+                            techList="WordPress, Elementor, CSS"
+                        >
+                            <p className="description">This website is not yet live as of May 15th, 2026.</p>
+                        </RLMProjCard>
+                        <RLMProjCard
                             title="Garson"
                             url="https://garsonshouston.wpenginepowered.com/"
                             techList="WordPress, Elementor, CSS"
