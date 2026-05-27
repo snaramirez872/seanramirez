@@ -27,10 +27,10 @@ export default function RLMPage() {
                         </RLMProjCard>
                         <RLMProjCard
                             title="Garson - Houston, TX"
-                            url="https://garsonshouston.wpenginepowered.com/"
+                            url="https://garsonrestaurant.com"
                             techList="WordPress, Elementor, CSS"
                         >
-                            <p className="description">This website is not yet live as of May 9th, 2026.</p>
+                            <p className="description">This website is live as of May 27th, 2026.</p>
                         </RLMProjCard>
                         <RLMProjCard
                             title="Reali's Cuisine - Johnston, RI"
@@ -54,18 +54,11 @@ export default function RLMPage() {
                             <p className="description">This website went live on April 27th, 2026.</p>
                         </RLMProjCard>
                         <RLMProjCard
-                            title="Charleston Movement Co. Physical Therapy - Charlston, SC"
-                            url="https://eigthstreetpt.wpenginepowered.com"
+                            title="Charleston Movement Co. - Charlston, SC"
+                            url="https://charlestonmovementco.com"
                             techList="WordPress, Elementor, CSS, Da Vinci Resolve"
                         >
-                            <p className="description">This website is not yet live as of April 9th, 2026.</p>
-                        </RLMProjCard>
-                        <RLMProjCard
-                            title="Charleston Movement Co. Pilates - Charleston, SC"
-                            url="https://eighthpilates.wpenginepowered.com"
-                            techList="WordPress, Elementor, CSS, Da Vinci Resolve"
-                        >
-                            <p className="description">This website is not yet live as of April 9th, 2026.</p>
+                            <p className="description">These websites are live as of May 27th, 2026.</p>
                         </RLMProjCard>
                         <RLMProjCard
                             title="US BanCard Merchant Services - Brentwood, TN"
