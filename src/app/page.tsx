@@ -8,19 +8,19 @@ import "./homepage.css";
 export default function Home() {
   return (
     <>
-      <div className="homepage-desktop">
-        <div className="hero-menu-container">
+      <main className="homepage-desktop">
+        <section className="hero-menu-container">
           <Hero />
           <HomeMenu />
-        </div>
-        <div className="about-me">
+        </section>
+        <section className="about-me">
           <AboutMe />
-        </div>
-      </div>
-      <div className="homepage-mobile">
+        </section>
+      </main>
+      <main className="homepage-mobile">
         <MobileHero />
         <MobileMenu />
-      </div>
+      </main>
     </>
   );
 }

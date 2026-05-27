@@ -5,7 +5,7 @@ export default function HomeMenu() {
     let resumeLink = "https://drive.google.com/file/d/1eFhg4kfwjCCJ00RFjMuMQly2K8ttjDi0/view?usp=sharing";
     let githubLink = "https://www.github.com/snaramirez872";
     return (
-        <div className="HomeMenu">
+        <nav className="HomeMenu">
             <HomeButtons linkText="Projects" url="/projects" />
             <Link 
                 className="home-link" 
@@ -28,6 +28,6 @@ export default function HomeMenu() {
                 </div>
             </Link>
             
-        </div>
+        </nav>
     );
 }

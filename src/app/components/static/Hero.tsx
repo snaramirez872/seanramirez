@@ -24,9 +24,9 @@ export default function Hero() {
     }, [index]);
 
     return (
-        <div className="hero-section">
-            <div className="hero-text">
-                <h2>Hello, I&apos;m Sean</h2>
+        <section className="hero-section">
+            <section className="hero-text">
+                <p>Hello, I&apos;m Sean</p>
                 <h1>
                     I&apos;m a{" "}
                     <span className="positions-wrapper">
@@ -35,7 +35,7 @@ export default function Hero() {
                         </span>
                     </span>
                 </h1>
-            </div>
-        </div>
+            </section>
+        </section>
     );
 }

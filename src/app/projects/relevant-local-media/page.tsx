@@ -4,13 +4,13 @@ import "../projectspage.css";
 
 export default function RLMPage() {
     return (
-        <div className="projectspage">
-           <div className="projectspage-main-content">
+        <section className="projectspage">
+           <section className="projectspage-main-content">
                 <BackButtonHeader url="/projects" />
                 <h1>Relevant Local Media</h1>
                 <h2 className="first-subheader">Web Developer</h2>
-                <div className="professional-projects">
-                    <div className="personal-grid">
+                <section className="professional-projects">
+                    <section className="personal-grid">
                         <RLMProjCard
                             title="Blue Jeans Pizza, Pasta, and Wings"
                             url="https://bluejeansga.wpenginepowered.com/"
@@ -165,9 +165,9 @@ export default function RLMPage() {
                         >
                             <p className="description">This website went live on November 5th, 2025.</p>
                         </RLMProjCard>
-                    </div>
-                </div>
-           </div>
-        </div>
+                    </section>
+                </section>
+           </section>
+        </section>
     );
 }

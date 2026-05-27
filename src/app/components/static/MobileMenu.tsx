@@ -12,12 +12,12 @@ export default function MobileMenu() {
     let linkedInLink = "https://www.linkedin.com/in/seanaramirez";
     let emailLink = "mailto:sean.ramirez.dev@gmail.com";
     return (
-        <div className="mobile-menu-container">
+        <section className="mobile-menu-container">
             <MobileButtons linkText="Projects" url="/projects" image_url={projects} />
             <MobileButtons linkText="Resume" url={resumeLink} image_url={resume} />
             <MobileButtons linkText="Email" url={emailLink} image_url={email} />
             <MobileButtons linkText="LinkedIn" url={linkedInLink} image_url={linkedin} />
             <MobileButtons linkText="GitHub" url={githubLink} image_url={github} />
-        </div>
+        </section>
     );
 }

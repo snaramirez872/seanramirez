@@ -2,7 +2,7 @@
     --hero-text-size: 50px;
 }
 
-.hero-section .hero-text h2 {
+.hero-section .hero-text p {
     font-size: var(--hero-text-size);
 }
 

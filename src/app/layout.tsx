@@ -4,8 +4,8 @@ import { Analytics } from '@vercel/analytics/next';
 import { SpeedInsights } from "@vercel/speed-insights/next";
 import type { ReactNode } from "react";
 
-const title = "Sean A Ramirez | Web Developer & Software Engineer | JavaScript, HTML, CSS, React.js, Next.js, Python, WordPress";
-const description = "Portfolio of Sean A Ramirez, a web developer specialzing in JavaScript, HTML, CSS, React.js, Next.js, and WordPress, showcasing modern and responsive websites and front-end projects.";
+const title = "Sean A Ramirez | Web Developer & Software Engineer | JavaScript, TypeScript, HTML, CSS, React.js, Next.js, Python, WordPress";
+const description = "Portfolio of Sean A Ramirez, a web developer specialzing in JavaScript, TypeScript, HTML, CSS, React.js, Next.js, and WordPress, showcasing modern and responsive websites and front-end projects.";
 
 export const metadata = {
   title,

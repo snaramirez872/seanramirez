@@ -8,11 +8,11 @@ interface BackButtonProps {
 
 export default function BackButtonHeader({ url }: BackButtonProps) {
     return (
-        <div className="back-button-header">
+        <section className="back-button-header">
             <Link href={url}>
                 <ChevronLeft />
                 Back
             </Link>
-        </div>
+        </section>
     );
 }

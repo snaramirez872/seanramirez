@@ -6,14 +6,14 @@ import "./projectspage.css";
 
 export default function ProjectsPage() {
     return (
-        <div className="projectspage">
-            <div className="projectspage-main-content">
+        <section className="projectspage">
+            <section className="projectspage-main-content">
                 <BackButtonHeader url="/" />
                 <h1>Projects</h1>
-                <div className="projects-cards-container">
-                    <div className="professional-projects">
+                <section className="projects-cards-container">
+                    <section className="professional-projects">
                         <h2 className="first-subheader">Professional Projects</h2>
-                        <div className="personal-grid">
+                        <section className="personal-grid">
                             <PositionCard 
                                 employer="Relevant Local Media" 
                                 position="Web Developer"
@@ -30,11 +30,11 @@ export default function ProjectsPage() {
                             >
                                 <p className="description">Translates NJ Court Notices into a selection of languages. This was accomplished as part of the NJIT YWCC Senior Capstone Program in the Fall 2023 Semester under the guidance of New Jersey Courts.</p>
                             </NonLinkProjectCards>
-                        </div>
-                    </div>
-                    <div className="personal-projects">
+                        </section>
+                    </section>
+                    <section className="personal-projects">
                         <h2 className="second-subheader">Personal Projects</h2>
-                        <div className="personal-grid">
+                        <section className="personal-grid">
                             <PersonalProjectCards 
                                 url="https://effectiveness-dex.vercel.app"
                                 title="Effectiveness Dex [in progress]"
@@ -77,10 +77,10 @@ export default function ProjectsPage() {
                                     An online news feed application developed as the course project for NJIT's CS 490 Summer 2023 Class.
                                 </p>
                             </PersonalProjectCards>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
+                        </section>
+                    </section>
+                </section>
+            </section>
+        </section>
     );
 }

@@ -5,14 +5,14 @@ import "../projectspage.css";
 
 export default function SentariAIPage() {
     return (
-        <div className="projectspage">
-            <div className="projectspage-main-content">
+        <section className="projectspage">
+            <section className="projectspage-main-content">
                 <BackButtonHeader url="/projects" />
                 <h1>Sentari AI</h1>
                 <h2 className="first-subheader">Software Development Engineer (SDE) Intern</h2>
-                <div className="projects-cards-container">
-                    <div className="professional-projects">
-                        <div className="personal-grid">
+                <section className="projects-cards-container">
+                    <section className="professional-projects">
+                        <section className="personal-grid">
                             <PersonalProjectCards
                                 url="https://journal.withsentari.com"
                                 title="Sentari AI Journal"
@@ -26,10 +26,10 @@ export default function SentariAIPage() {
                             >
                                 <p className="description">Led the development of an internal tool that visualizes various metrics such as how the app scales over time.<br /><br />This was accomplished while engaged in a contract of employment with <span className="company-name">Sentari AI</span> as a Software Development Engineer Intern.</p>
                             </NonLinkProjectCards>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
+                        </section>
+                    </section>
+                </section>
+            </section>
+        </section>
     );
 }
