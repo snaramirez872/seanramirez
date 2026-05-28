@@ -20,10 +20,10 @@ export default function RLMPage() {
                         </RLMProjCard>
                         <RLMProjCard
                             title="Blue Jeans Pizza, Pasta, and Wings - Blue Ridge, GA"
-                            url="https://bluejeansga.wpenginepowered.com/"
+                            url="https://bluejeansblueridge.com/"
                             techList="WordPress, Elementor, CSS"
                         >
-                            <p className="description">This website is not yet live as of May 15th, 2026.</p>
+                            <p className="description">This website went live on May 28th, 2026.</p>
                         </RLMProjCard>
                         <RLMProjCard
                             title="Garson - Houston, TX"
