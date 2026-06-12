@@ -58,7 +58,9 @@
     .projectspage-main-content {
         padding: 40px;
     }
+}
 
+@media (max-width: 768px) {
     h1,
     .first-subheader,
     .second-subheader,
