@@ -6,7 +6,7 @@ export default function HomeMenu() {
     let githubLink = "https://www.github.com/snaramirez872";
     return (
         <nav className="HomeMenu">
-            <HomeButtons linkText="Projects" url="/projects" />
+            <HomeButtons linkText="Experience" url="/projects" />
             <Link 
                 className="home-link" 
                 rel="noreferrer" 

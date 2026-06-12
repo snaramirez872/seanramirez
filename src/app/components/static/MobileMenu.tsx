@@ -13,7 +13,7 @@ export default function MobileMenu() {
     let emailLink = "mailto:sean.ramirez.dev@gmail.com";
     return (
         <section className="mobile-menu-container">
-            <MobileButtons linkText="Projects" url="/projects" image_url={projects} />
+            <MobileButtons linkText="Experience" url="/projects" image_url={projects} />
             <MobileButtons linkText="Resume" url={resumeLink} image_url={resume} />
             <MobileButtons linkText="Email" url={emailLink} image_url={email} />
             <MobileButtons linkText="LinkedIn" url={linkedInLink} image_url={linkedin} />

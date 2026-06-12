@@ -9,7 +9,7 @@ export default function ProjectsPage() {
         <section className="projectspage">
             <section className="projectspage-main-content">
                 <BackButtonHeader url="/" />
-                <h1>Projects</h1>
+                <h1>Experience</h1>
                 <section className="projects-cards-container">
                     <section className="professional-projects">
                         <h2 className="first-subheader">Professional Experience</h2>
