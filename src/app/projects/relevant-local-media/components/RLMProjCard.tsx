@@ -12,7 +12,6 @@ export default function RLMProjCard({ url, techList, title, children }: Personal
         >
             <h3 className="proj-title">{title}</h3>
             {children}
-            <p className="description">This was accomplished while working for <span className="company-name">Relevant Local Media</span> as a Web Developer.</p>
             <p className="tech-list">{techList}</p>
         </Link>
     );

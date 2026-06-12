@@ -10,17 +10,18 @@
     gap: 10px;
     text-decoration: none;
     background-color: var(--bg-color-2);
-    box-shadow: 10px 16px 26px 3px rgba(0,0,0,0.65);
     padding: 25px;
     width: 100%;
     max-width: 400px;
     box-sizing: border-box;
     border-radius: 20px;
-    transition: transform 0.3s ease;
+    transition: all 0.3s ease;
 }
 
 .personal-project-card:hover {
     transform: translateY(-10px);
+    -webkit-box-shadow: 1px 18px 13px -4px rgba(0,0,0,0.68); 
+    box-shadow: 1px 18px 13px -4px rgba(0,0,0,0.68);
 }
 
 .personal-project-card .description {

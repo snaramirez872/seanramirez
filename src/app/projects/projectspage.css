@@ -39,7 +39,11 @@
     padding-top: 20px;
 }
 
+.first-copy {
+    margin-bottom: 10px;
+}
 .company-name {
+    text-decoration: none;
     color: var(--primary);
 }
 
@@ -58,7 +62,8 @@
 @media (max-width: 768px) {
     h1,
     .first-subheader,
-    .second-subheader {
+    .second-subheader,
+    .first-copy {
         text-align: center;
     }
 }

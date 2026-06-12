@@ -1,6 +1,7 @@
 import RLMProjCard from "./components/RLMProjCard";
 import BackButtonHeader from "../components/reusable/BackButtonHeader";
 import "../projectspage.css";
+import Link from "next/link";
 
 export default function RLMPage() {
     return (
@@ -8,9 +9,17 @@ export default function RLMPage() {
            <section className="projectspage-main-content">
                 <BackButtonHeader url="/projects" />
                 <h1>Relevant Local Media</h1>
-                <h2 className="first-subheader">Web Developer</h2>
+                <h2 className="first-subheader">Job Title: Web Developer</h2>
+                <p className="first-copy">These websites were designed while under the employment of <Link href="https://www.relevantlocalmedia.com" className="company-name">Relevant Local Media</Link>.</p>
                 <section className="professional-projects">
                     <section className="personal-grid">
+                        <RLMProjCard
+                            title="Larry Pro Complete Home Renovation"
+                            url="https://larryproreno.wpenginepowered.com/"
+                            techList="WordPress, Elementor, CSS"
+                        >
+                            <p className="description">This website is not yet live as of June 11th, 2026.</p>
+                        </RLMProjCard>
                         <RLMProjCard
                             title="Aced Enterprises, Inc. - Blackwood, NJ"
                             url="https://acedenterprise.wpenginepowered.com/"

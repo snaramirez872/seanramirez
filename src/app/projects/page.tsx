@@ -12,16 +12,16 @@ export default function ProjectsPage() {
                 <h1>Projects</h1>
                 <section className="projects-cards-container">
                     <section className="professional-projects">
-                        <h2 className="first-subheader">Professional Projects</h2>
+                        <h2 className="first-subheader">Professional Experience</h2>
                         <section className="personal-grid">
                             <PositionCard 
                                 employer="Relevant Local Media" 
-                                position="Web Developer"
+                                position="Web Developer (October 2025 to Present)"
                                 url="/projects/relevant-local-media"
                             />
                             <PositionCard 
                                 employer="Sentari AI" 
-                                position="Software Development Engineer Intern"
+                                position="Software Development Engineer Intern (July 2025 to October 2025)"
                                 url="/projects/sentari-ai"
                             />
                             <NonLinkProjectCards 
