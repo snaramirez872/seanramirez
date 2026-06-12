@@ -41,6 +41,7 @@
 
 .first-copy {
     margin-bottom: 10px;
+    font-size: var(--font-size);
 }
 .company-name {
     text-decoration: none;
