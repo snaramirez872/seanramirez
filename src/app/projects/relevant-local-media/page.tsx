@@ -14,6 +14,13 @@ export default function RLMPage() {
                 <section className="professional-projects">
                     <section className="personal-grid">
                         <RLMProjCard
+                            title="Poke Dream - High Point, NC"
+                            url="https://pokedreamhp.wpenginepowered.com/"
+                            techList="WordPress, Elementor, CSS"
+                        >
+                            <p className="description">This website is not yet live as of June 29th, 2026.</p>
+                        </RLMProjCard>
+                        <RLMProjCard
                             title="Kace Rental Properties - Cleveland, TN"
                             url="https://kacerentalprop.wpenginepowered.com/"
                             techList="WordPress, Elementor, CSS"
