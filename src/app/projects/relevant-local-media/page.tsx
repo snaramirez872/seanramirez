@@ -29,10 +29,10 @@ export default function RLMPage() {
                         </RLMProjCard>
                         <RLMProjCard
                             title="Larry Pro Complete Home Renovation"
-                            url="https://larryproreno.wpenginepowered.com/"
+                            url="https://larryprorenovations.com"
                             techList="WordPress, Elementor, CSS"
                         >
-                            <p className="description">This website is not yet live as of June 11th, 2026.</p>
+                            <p className="description">This website went live on June 26th, 2026.</p>
                         </RLMProjCard>
                         <RLMProjCard
                             title="Aced Enterprises, Inc. - Blackwood, NJ"
