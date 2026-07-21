@@ -14,6 +14,13 @@ export default function RLMPage() {
                 <section className="professional-projects">
                     <section className="personal-grid">
                         <RLMProjCard
+                            title="Taco Vazquez - Fort Myers, FL"
+                            url="https://tacovasquezfl.wpenginepowered.com/"
+                            techList="WordPress, Elementor, CSS"
+                        >
+                            <p className="description">This website is not yet live as of July 13th, 2026.</p>
+                        </RLMProjCard>
+                        <RLMProjCard
                             title="Celina's Mulberry Market & Grille - Galloway, NJ"
                             url="https://celinasmulberr.wpenginepowered.com/"
                             techList="WordPress, Elementor, CSS"
