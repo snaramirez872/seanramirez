@@ -37,7 +37,7 @@ export default function ProjectsPage() {
                         <section className="personal-grid">
                             <PersonalProjectCards 
                                 url="https://effectiveness-dex.vercel.app"
-                                title="Effectiveness Dex [in progress]"
+                                title="Effectiveness Dex"
                                 techList="Next.js, TypeScript, CSS, PokeAPI"
                             >
                                 <p className="description">
