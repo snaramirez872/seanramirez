@@ -2,7 +2,7 @@ import Link from "next/link";
 import HomeButtons from "../reusable/HomeButtons";
 
 export default function HomeMenu() {
-    let resumeLink = "https://drive.google.com/file/d/1cMNYSVY36tl-UjCQciuccguBc1LlHwkv/view?usp=sharing";
+    let resumeLink = "https://drive.google.com/file/d/1hN7Ghd2LTL5Qh5kjb8SzYxiTrbHS_Cuh/view?usp=sharing";
     let githubLink = "https://www.github.com/snaramirez872";
     return (
         <nav className="HomeMenu">

@@ -17,12 +17,12 @@ export default function ProjectsPage() {
                             <PositionCard 
                                 employer="Relevant Local Media" 
                                 position="Web Developer (October 2025 to Present)"
-                                url="/projects/relevant-local-media"
+                                url="/experience/relevant-local-media"
                             />
                             <PositionCard 
                                 employer="Sentari AI" 
                                 position="Software Development Engineer Intern (July 2025 to October 2025)"
-                                url="/projects/sentari-ai"
+                                url="/experience/sentari-ai"
                             />
                             <NonLinkProjectCards 
                                 title="Court Notice Translation Service Prototype"

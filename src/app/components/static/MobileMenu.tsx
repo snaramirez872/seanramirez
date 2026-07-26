@@ -7,7 +7,7 @@ import linkedin from "../../../lib/assets/icons/InBug-Black.png";
 import "../css/mobilemenu.css";
 
 export default function MobileMenu() {
-    let resumeLink = "https://drive.google.com/file/d/1cMNYSVY36tl-UjCQciuccguBc1LlHwkv/view?usp=sharing";
+    let resumeLink = "https://drive.google.com/file/d/1hN7Ghd2LTL5Qh5kjb8SzYxiTrbHS_Cuh/view?usp=sharing";
     let githubLink = "https://www.github.com/snaramirez872";
     let linkedInLink = "https://www.linkedin.com/in/seanaramirez";
     let emailLink = "mailto:sean.ramirez.dev@gmail.com";
