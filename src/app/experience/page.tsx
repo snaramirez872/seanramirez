@@ -15,6 +15,11 @@ export default function ProjectsPage() {
                         <h2 className="first-subheader">Professional Experience</h2>
                         <section className="personal-grid">
                             <PositionCard 
+                                employer="Amplify" 
+                                position="Full Stack Developer (July 2026 to Present)"
+                                url="#"
+                            />
+                            <PositionCard 
                                 employer="Relevant Local Media" 
                                 position="Web Developer (October 2025 to Present)"
                                 url="/experience/relevant-local-media"
