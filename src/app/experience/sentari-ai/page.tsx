@@ -8,7 +8,7 @@ export default function SentariAIPage() {
     return (
         <section className="projectspage">
             <section className="projectspage-main-content">
-                <BackButtonHeader url="/projects" />
+                <BackButtonHeader url="/experience" />
                 <h1>Sentari AI</h1>
                 <h2 className="first-subheader">Job Title: Software Development Engineer (SDE) Intern</h2>
                 <p className="first-copy">This was accomplished while engaged in a contract of employment with <Link href="https://www.withsentari.com" className="company-name">Sentari AI</Link> as a Software Development Engineer Intern.</p>
