@@ -29,10 +29,10 @@ export default function RLMPage() {
                         </RLMProjCard>
                         <RLMProjCard
                             title="Poke Dream - High Point, NC"
-                            url="https://pokedreamhp.wpenginepowered.com/"
+                            url="https://pokedreamhpnc.com/"
                             techList="WordPress, Elementor, CSS"
                         >
-                            <p className="description">This website is not yet live as of June 29th, 2026.</p>
+                            <p className="description">This website went live on July 27, 2026</p>
                         </RLMProjCard>
                         <RLMProjCard
                             title="Kace Rental Properties - Cleveland, TN"
