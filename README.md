@@ -1,5 +1,5 @@
 # Portfolio of Sean Ramirez
-This is the home of my new portfolio website.\
+This is the repository for my new portfolio website.\
 [Live Link](https://seanaramirez.dev/) | Hosted by Vercel
 
 <p>
