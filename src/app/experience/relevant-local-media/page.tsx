@@ -14,6 +14,13 @@ export default function RLMPage() {
                 <section className="professional-projects">
                     <section className="personal-grid">
                         <RLMProjCard
+                            title="Dynamo Collectibles - Fort Myers, FL"
+                            url="https://dynamocollect.wpenginepowered.com/"
+                            techList="WordPress, Elementor, CSS"
+                        >
+                            <p className="description">This website is not yet live as of August 21, 2026.</p>
+                        </RLMProjCard>
+                        <RLMProjCard
                             title="Ocoee Region Builders Association (ORBA) - Cleveland, TN"
                             url="https://orbatn.wpenginepowered.com/"
                             techList="WordPress, Elementor, CSS"
@@ -36,24 +43,24 @@ export default function RLMPage() {
                         </RLMProjCard>
                         <RLMProjCard
                             title="Poke Dream - High Point, NC"
-                            url="https://pokedreamhpnc.com/"
+                            url="https://https://pokedreamhp.wpenginepowered.com/"
                             techList="WordPress, Elementor, CSS"
                         >
                             <p className="description">This website went live on July 27, 2026</p>
                         </RLMProjCard>
                         <RLMProjCard
                             title="Kace Rental Properties - Cleveland, TN"
-                            url="https://kacerentalprop.wpenginepowered.com/"
+                            url="https://kacerentals.com/"
                             techList="WordPress, Elementor, CSS"
                         >
-                            <p className="description">This website is not yet live as of June 19th, 2026.</p>
+                            <p className="description">This website has been live as of August 24, 2026.</p>
                         </RLMProjCard>
                         <RLMProjCard
                             title="Kace Construction & Developments - Cleveland, TN"
-                            url="https://kaceconstruct.wpenginepowered.com/"
+                            url="https://kaceconstruction.com/"
                             techList="WordPress, Elementor, CSS"
                         >
-                            <p className="description">This website is not yet live as of June 15th, 2026.</p>
+                            <p className="description">This website has been live as of August 19, 2026.</p>
                         </RLMProjCard>
                         <RLMProjCard
                             title="Larry Pro Complete Home Renovation"
