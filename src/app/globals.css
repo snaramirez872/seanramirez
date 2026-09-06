@@ -1,3 +1,16 @@
+@import "../lib/styles/navbar.css";
+@import "../lib/styles/homepage.css";
+@import "../lib/styles/footer.css";
+@import "../lib/styles/hero.css";
+@import "../lib/styles/aboutme.css";
+@import "../lib/styles/abouttext.css";
+@import "../lib/styles/linkbutton.css";
+@import "../lib/styles/grid.css";
+@import "../lib/styles/personalprojectcards.css";
+@import "../lib/styles/positioncard.css";
+@import "../lib/styles/experiencepage.css";
+@import "../lib/styles/loadmoregrid.css";
+
 :root {
   --orange-500: #f97316;
   --primary: #41ffb3;
@@ -25,4 +38,10 @@
 body {
   background-color: var(--bg-color);
   color: white;
+}
+
+.icons-container {
+    display: flex;
+    gap: 30px;
+    align-items: center;
 }

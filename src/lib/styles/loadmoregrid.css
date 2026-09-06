@@ -1,0 +1,39 @@
+.load-more-container {
+    position: relative;
+    width: 100%;
+}
+
+.grid-fade {
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 4rem;
+    height: 160px;
+    background: linear-gradient(
+        to bottom,
+        transparent 0%,
+        rgba(24, 27, 43, 0.05) 25%,
+        rgba(24, 27, 43, 0.2) 50%,
+        rgba(24, 27, 43, 0.55) 75%,
+        var(--bg-color) 100%
+    );
+    pointer-events: none;
+}
+
+.view-more-button {
+    display: block;
+    margin: 1rem auto 0;
+    padding: 0.75rem 1.5rem;
+    border: 2px solid var(--primary);
+    border-radius: 8px;
+    background: transparent;
+    color: var(--primary);
+    font-size: 1rem;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+.view-more-button:hover {
+    background-color: var(--primary);
+    color: var(--bg-color);
+}

@@ -23,6 +23,7 @@ export interface PositionCardProps {
     url: string;
     employer: string;
     position: string;
+    range: string;
 }
 
 export interface NonLinkProjectCardProps {

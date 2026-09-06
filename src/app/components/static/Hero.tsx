@@ -1,6 +1,5 @@
 "use client"
 import { useState, useEffect } from "react";
-import "../css/hero.css";
 
 export default function Hero() {
     const positionWords = ["developer", "engineer", "designer"];
@@ -26,7 +25,7 @@ export default function Hero() {
     return (
         <section className="hero-section">
             <section className="hero-text">
-                <p>Hello, I&apos;m Sean</p>
+                <p>Hello,</p>
                 <h1>
                     I&apos;m a{" "}
                     <span className="positions-wrapper">

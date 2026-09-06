@@ -7,15 +7,19 @@ export default function sitemap(): MetadataRoute.Sitemap {
       lastModified: new Date(),
     },
     {
-      url: "https://seanaramirez.dev/projects",
+      url: "https://seanaramirez.dev/professional-experience",
       lastModified: new Date(),
     },
     {
-      url: "https://seanaramirez.dev/projects/relevant-local-media",
+      url: "https://seanaramirez.dev/professional-experience/relevant-local-media",
       lastModified: new Date(),
     },
     {
-      url: "https://seanaramirez.dev/projects/sentari-ai",
+      url: "https://seanaramirez.dev/professional-experience/sentari-ai",
+      lastModified: new Date(),
+    },
+    {
+      url: "https://seanaramirez.dev/personal-projects",
       lastModified: new Date(),
     },
   ]

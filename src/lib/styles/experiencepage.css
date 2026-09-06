@@ -1,0 +1,64 @@
+.experience-page {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+}
+
+.experience-main-content {
+    width: 100%;
+    max-width: 1200px;
+    padding: 15px;
+    box-sizing: border-box;
+}
+
+/* Responsive Typography */
+.experience-main-content h1 {
+    font-size: clamp(32px, 8vw, 50px);
+    margin-bottom: 10px;
+}
+
+.experience-main-content h2 {
+    font-size: clamp(24px, 5vw, 30px);
+    margin-top: 20px;
+}
+
+.first-subheader,
+.second-subheader {
+    padding-bottom: 10px;
+}
+
+.second-subheader {
+    padding-top: 20px;
+}
+
+.first-copy {
+    margin-bottom: 20px;
+    font-size: var(--font-size);
+}
+
+.company-name {
+    text-decoration: none;
+    color: var(--primary);
+}
+
+.experience-hero p {
+    font-size: var(--font-size);
+    margin-bottom: 20px;
+}
+
+/* Desktop & Tablets */
+@media (min-width: 768px) {
+    .experience-main-content {
+        padding: 40px;
+    }
+}
+
+@media (max-width: 767px) {
+    h1,
+    .first-subheader,
+    .second-subheader,
+    .first-copy {
+        text-align: center;
+    }
+}

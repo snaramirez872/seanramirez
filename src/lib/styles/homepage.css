@@ -1,0 +1,19 @@
+/* Desktop */
+.homepage-hero {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 50px 5%;
+}
+
+.about-me {
+    z-index: 9999;
+}
+
+/* Mobile & Tablets */
+@media screen and (max-width: 1024px) {
+    .homepage-hero {
+        flex-direction: column;
+        gap: 30px;
+    }
+}

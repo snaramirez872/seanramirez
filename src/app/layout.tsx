@@ -1,8 +1,9 @@
 import "./globals.css";
-import { Footer } from "./components/Footer";
+import { Footer } from "./components/static/Footer";
 import { Analytics } from '@vercel/analytics/next';
 import { SpeedInsights } from "@vercel/speed-insights/next";
 import type { ReactNode } from "react";
+import NavBar from "./components/static/NavBar";
 
 const title = "Sean A Ramirez | Web Developer & Software Engineer | JavaScript, TypeScript, HTML, CSS, React.js, Next.js, Python, WordPress";
 const description = "Portfolio of Sean A Ramirez, a web developer specialzing in JavaScript, TypeScript, HTML, CSS, React.js, Next.js, and WordPress, showcasing modern and responsive websites and front-end projects.";
@@ -39,6 +40,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body>
+        <NavBar />
         {children}
         <Footer />
         <Analytics />

@@ -2,7 +2,6 @@ import AboutText from "./AboutText";
 import Image from "next/image";
 import profile from "../../../lib/assets/profile.png";
 import Icons from "./Icons";
-import "../css/aboutme.css";
 
 export default function AboutMe() {
     return (
