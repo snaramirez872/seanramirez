@@ -22,8 +22,15 @@
     border-radius: 50%;
 }
 
-/* Mobile & Tablets */
+/* Tablets */
 @media screen and (max-width: 1024px) {
+    .about-container {
+        width: 550px;
+    }
+}
+
+/* Mobile */
+@media screen and (max-width: 768px) {
     .about-container {
         width: 350px;
     }
