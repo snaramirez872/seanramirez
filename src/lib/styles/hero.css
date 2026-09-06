@@ -47,7 +47,7 @@
     transform: translateY(20px);
 }
 
-/* Mobile & Tablets */
+/* Tablets */
 @media screen and (max-width: 1024px) {
     .hero-section .hero-text p {
         font-size: var(--hero-text-size-mbl);
@@ -55,5 +55,12 @@
 
     .hero-section .hero-text h1 {
         font-size: calc(var(--hero-text-size-mbl) + 32px);
+    }
+}
+
+/* Mobile */
+@media screen and (max-width: 768px) {
+    .hero-section {
+        display: none;
     }
 }
