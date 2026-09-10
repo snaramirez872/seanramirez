@@ -5,6 +5,20 @@ export default function RLMWebsitesGrid() {
     return (
         <LoadMoreGrid>
             <RLMProjCard
+                title="Los Tres Amigo Taqueria, Inc. - Central Falls, RI"
+                url="https://lostresamigo.wpenginepowered.com"
+                techList="WordPress, Elementor, CSS"
+            >
+                <p className="description">This website is not yet live as of September 9, 2026.</p>
+            </RLMProjCard>
+            <RLMProjCard
+                title="BrickFire Pizza - Newton, MA"
+                url="https://brickfirepizza.wpenginepowered.com"
+                techList="WordPress, Elementor, CSS"
+            >
+                <p className="description">This website is not yet live as of September 2, 2026.</p>
+            </RLMProjCard>
+            <RLMProjCard
                 title="Dynamo Collectibles - Fort Myers, FL"
                 url="https://dynamocollect.wpenginepowered.com/"
                 techList="WordPress, Elementor, CSS"
@@ -103,11 +117,18 @@ export default function RLMWebsitesGrid() {
                 <p className="description">This website went live on April 27th, 2026.</p>
             </RLMProjCard>
             <RLMProjCard
-                title="Charleston Movement Co. - Charlston, SC"
+                title="Charleston Movement Co. Pilates - Charlston, SC"
+                url="https://cmcpilates.com"
+                techList="WordPress, Elementor, CSS, Da Vinci Resolve"
+            >
+                <p className="description">This website has been live as of May 27th, 2026.</p>
+            </RLMProjCard>
+            <RLMProjCard
+                title="Charleston Movement Co. Physical Therapy - Charlston, SC"
                 url="https://charlestonmovementco.com"
                 techList="WordPress, Elementor, CSS, Da Vinci Resolve"
             >
-                <p className="description">These websites are live as of May 27th, 2026.</p>
+                <p className="description">This website has been live as of May 27th, 2026.</p>
             </RLMProjCard>
             <RLMProjCard
                 title="US BanCard Merchant Services - Brentwood, TN"
