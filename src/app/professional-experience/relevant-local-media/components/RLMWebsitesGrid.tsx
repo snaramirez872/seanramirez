@@ -20,7 +20,7 @@ export default function RLMWebsitesGrid() {
             </RLMProjCard>
             <RLMProjCard
                 title="Dynamo Collectibles - Fort Myers, FL"
-                url="https://dynamocollect.wpenginepowered.com/"
+                url="https://dynamocollects.com/"
                 techList="WordPress, Elementor, CSS"
             >
                 <p className="description">This website is not yet live as of August 21, 2026.</p>
