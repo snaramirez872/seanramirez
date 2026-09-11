@@ -5,7 +5,7 @@ import Link from "next/link";
 
 export default function NavBar() {
     const [menuOpen, setMenuOpen] = useState(false);
-    const resumeLink = "https://drive.google.com/file/d/1ibh-dYm28lZeEmhsd8bVLtcaTTZFrH4b/view?usp=drive_link"
+    const resumeLink = "https://drive.google.com/file/d/1kS-6pXeFisux9BzQolLnp2XgNkuOQM3c/view?usp=sharing"
 
     const closeMenu = () => {
         setMenuOpen(false);

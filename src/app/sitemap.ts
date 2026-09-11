@@ -19,6 +19,10 @@ export default function sitemap(): MetadataRoute.Sitemap {
       lastModified: new Date(),
     },
     {
+      url: "https://seanaramirez.dev/professional-experience/amplify",
+      lastModified: new Date(),
+    },
+    {
       url: "https://seanaramirez.dev/personal-projects",
       lastModified: new Date(),
     },

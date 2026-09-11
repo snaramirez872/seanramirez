@@ -8,7 +8,7 @@ export default function ExperienceGrid() {
                 position="Full Stack Developer"
                 employer="Amplify"
                 range="July 2026 to Present"
-                url="#"
+                url="/professional-experience/amplify"
             />
             <PositionCard 
                 position="Web Developer"
