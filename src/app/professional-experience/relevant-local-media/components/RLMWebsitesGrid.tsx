@@ -30,7 +30,7 @@ export default function RLMWebsitesGrid() {
                 url="https://orbatn.wpenginepowered.com/"
                 techList="WordPress, Elementor, CSS"
             >
-                <p className="description">This website is not yet live as of August 3, 2026.</p>
+                <p className="description">This website is not yet live as of August 3, 2026 and is currently being worked on after client feedback.</p>
             </RLMProjCard>
             <RLMProjCard
                 title="Taco Vazquez - Fort Myers, FL"
