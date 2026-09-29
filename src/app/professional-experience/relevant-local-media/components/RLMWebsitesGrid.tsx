@@ -4,33 +4,49 @@ import RLMProjCard from "../../../components/reusable/RLMProjCard";
 export default function RLMWebsitesGrid() {
     return (
         <LoadMoreGrid>
+            {/* 
+            <RLMProjCard
+                title="AA Tax CPA, LLC - Phoenix, AZ"
+                url="link"
+                techList="WordPress, Elementor, CSS, Da Vinci Resolve"
+            >
+                <p className="description">This website is not yet live as of September 28th, 2026.</p>
+            </RLMProjCard>
+            <RLMProjCard
+                title="ez1040 - Phoenix, AZ"
+                url="link"
+                techList="WordPress, Elementor, CSS, Da Vinci Resolve"
+            >
+                <p className="description">This website is not yet live as of September 28th, 2026.</p>
+            </RLMProjCard>
+            */}
             <RLMProjCard
                 title="Los Tres Amigo Taqueria, Inc. - Central Falls, RI"
-                url="https://lostresamigo.wpenginepowered.com"
+                url="https://lostresamigotaqueria.com"
                 techList="WordPress, Elementor, CSS"
             >
-                <p className="description">This website is not yet live as of September 9, 2026.</p>
+                <p className="description">This website has been live as of September 28th, 2026.</p>
             </RLMProjCard>
             <RLMProjCard
                 title="BrickFire Pizza - Newton, MA"
                 url="https://brickfirepizza.wpenginepowered.com"
                 techList="WordPress, Elementor, CSS"
             >
-                <p className="description">This website is not yet live as of September 2, 2026.</p>
+                <p className="description">This website is not yet live as of September 2nd, 2026.</p>
             </RLMProjCard>
             <RLMProjCard
                 title="Dynamo Collectibles - Fort Myers, FL"
                 url="https://dynamocollects.com/"
                 techList="WordPress, Elementor, CSS"
             >
-                <p className="description">This website is not yet live as of August 21, 2026.</p>
+                <p className="description">This website has been live as of September 11th, 2026.</p>
             </RLMProjCard>
             <RLMProjCard
                 title="Ocoee Region Builders Association (ORBA) - Cleveland, TN"
                 url="https://orbatn.wpenginepowered.com/"
                 techList="WordPress, Elementor, CSS"
             >
-                <p className="description">This website is not yet live as of August 3, 2026 and is currently being worked on after client feedback.</p>
+                <p className="description">This website is not yet live as of August 3rd, 2026 and is currently being worked on after client feedback.</p>
             </RLMProjCard>
             <RLMProjCard
                 title="Taco Vazquez - Fort Myers, FL"
