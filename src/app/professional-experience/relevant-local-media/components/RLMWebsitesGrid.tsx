@@ -4,22 +4,20 @@ import RLMProjCard from "../../../components/reusable/RLMProjCard";
 export default function RLMWebsitesGrid() {
     return (
         <LoadMoreGrid>
-            {/* 
             <RLMProjCard
                 title="AA Tax CPA, LLC - Phoenix, AZ"
-                url="link"
-                techList="WordPress, Elementor, CSS, Da Vinci Resolve"
+                url="https://aataxcpa.wpenginepowered.com/"
+                techList="WordPress, Elementor, CSS"
             >
                 <p className="description">This website is not yet live as of September 28th, 2026.</p>
             </RLMProjCard>
             <RLMProjCard
                 title="ez1040 - Phoenix, AZ"
-                url="link"
-                techList="WordPress, Elementor, CSS, Da Vinci Resolve"
+                url="https://ez1040phoenix.wpenginepowered.com/"
+                techList="WordPress, Elementor, CSS"
             >
                 <p className="description">This website is not yet live as of September 28th, 2026.</p>
             </RLMProjCard>
-            */}
             <RLMProjCard
                 title="Los Tres Amigo Taqueria, Inc. - Central Falls, RI"
                 url="https://lostresamigotaqueria.com"
