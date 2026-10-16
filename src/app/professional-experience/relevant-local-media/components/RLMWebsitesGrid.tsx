@@ -5,6 +5,13 @@ export default function RLMWebsitesGrid() {
     return (
         <LoadMoreGrid>
             <RLMProjCard
+                title="Ruam Mit - St. Paul, MN"
+                url="https://ruammitmn.wpenginepowered.com/"
+                techList="WordPress, Elementor, CSS"
+            >
+                <p className="description">This website is not yet live as of October 15th, 2026.</p>
+            </RLMProjCard>
+            <RLMProjCard
                 title="AA Tax CPA, LLC - Phoenix, AZ"
                 url="https://aataxcpa.wpenginepowered.com/"
                 techList="WordPress, Elementor, CSS"
@@ -42,7 +49,7 @@ export default function RLMWebsitesGrid() {
             <RLMProjCard
                 title="Ocoee Region Builders Association (ORBA) - Cleveland, TN"
                 url="https://orbatn.wpenginepowered.com/"
-                techList="WordPress, Elementor, CSS"
+                techList="WordPress, Elementor, HTML, CSS"
             >
                 <p className="description">This website is not yet live as of August 3rd, 2026 and is currently being worked on after client feedback.</p>
             </RLMProjCard>
@@ -70,14 +77,14 @@ export default function RLMWebsitesGrid() {
             <RLMProjCard
                 title="Kace Rental Properties - Cleveland, TN"
                 url="https://kacerentals.com/"
-                techList="WordPress, Elementor, CSS"
+                techList="WordPress, Elementor, HTML, CSS"
             >
                 <p className="description">This website has been live as of August 24, 2026.</p>
             </RLMProjCard>
             <RLMProjCard
                 title="Kace Construction & Developments - Cleveland, TN"
                 url="https://kaceconstruction.com/"
-                techList="WordPress, Elementor, CSS"
+                techList="WordPress, Elementor, HTML, CSS"
             >
                 <p className="description">This website has been live as of August 19, 2026.</p>
             </RLMProjCard>
