@@ -4,6 +4,22 @@ import RLMProjCard from "../../../components/reusable/RLMProjCard";
 export default function RLMWebsitesGrid() {
     return (
         <LoadMoreGrid>
+            {/*
+            <RLMProjCard
+                title="Agamie's Deli - Clifton, NJ"
+                url=""
+                techList="WordPress, Elementor, CSS"
+            >
+                <p className="description">This website is not yet live as of October 15th, 2026.</p>
+            </RLMProjCard>
+            <RLMProjCard
+                title="Thelma's Kitchen - Bronx, New York"
+                url=""
+                techList="WordPress, Elementor, CSS"
+            >
+                <p className="description">This website is not yet live as of September 28th, 2026.</p>
+            </RLMProjCard>
+            */}
             <RLMProjCard
                 title="Ruam Mit - St. Paul, MN"
                 url="https://ruammitmn.wpenginepowered.com/"
@@ -33,6 +49,13 @@ export default function RLMWebsitesGrid() {
                 <p className="description">This website has been live as of September 28th, 2026.</p>
             </RLMProjCard>
             <RLMProjCard
+                title="Nelson Cheese & Deli - St Paul, MN"
+                url="https://neslsoncheese.net"
+                techList="WordPress, Elementor, CSS"
+            >
+                <p className="description">This website has been live as of November 4th, 2026.</p>
+            </RLMProjCard>
+            <RLMProjCard
                 title="BrickFire Pizza - Newton, MA"
                 url="https://brickfirepizza.wpenginepowered.com"
                 techList="WordPress, Elementor, CSS"
@@ -48,10 +71,10 @@ export default function RLMWebsitesGrid() {
             </RLMProjCard>
             <RLMProjCard
                 title="Ocoee Region Builders Association (ORBA) - Cleveland, TN"
-                url="https://orbatn.wpenginepowered.com/"
+                url="https://orbatn.com/"
                 techList="WordPress, Elementor, HTML, CSS"
             >
-                <p className="description">This website is not yet live as of August 3rd, 2026 and is currently being worked on after client feedback.</p>
+                <p className="description">This website has been live as of November 4th, 2026.</p>
             </RLMProjCard>
             <RLMProjCard
                 title="Taco Vazquez - Fort Myers, FL"
@@ -140,14 +163,14 @@ export default function RLMWebsitesGrid() {
             <RLMProjCard
                 title="Charleston Movement Co. Pilates - Charlston, SC"
                 url="https://cmcpilates.com"
-                techList="WordPress, Elementor, CSS, Da Vinci Resolve"
+                techList="WordPress, Elementor, CSS"
             >
                 <p className="description">This website has been live as of May 27th, 2026.</p>
             </RLMProjCard>
             <RLMProjCard
                 title="Charleston Movement Co. Physical Therapy - Charlston, SC"
                 url="https://charlestonmovementco.com"
-                techList="WordPress, Elementor, CSS, Da Vinci Resolve"
+                techList="WordPress, Elementor, HTML, CSS"
             >
                 <p className="description">This website has been live as of May 27th, 2026.</p>
             </RLMProjCard>
