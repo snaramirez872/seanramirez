@@ -6,6 +6,13 @@ export default function RLMWebsitesGrid() {
         <LoadMoreGrid>
             {/*
             <RLMProjCard
+                title="Brother's Roast Beef - Malden, MA"
+                url=""
+                techList="WordPress, Elementor, CSS"
+            >
+                <p className="description">This website is not yet live as of October 15th, 2026.</p>
+            </RLMProjCard>
+            <RLMProjCard
                 title="Agamie's Deli - Clifton, NJ"
                 url=""
                 techList="WordPress, Elementor, CSS"
@@ -22,10 +29,10 @@ export default function RLMWebsitesGrid() {
             */}
             <RLMProjCard
                 title="Ruam Mit - St. Paul, MN"
-                url="https://ruammitmn.wpenginepowered.com/"
+                url="https://ruammitmn.com"
                 techList="WordPress, Elementor, CSS"
             >
-                <p className="description">This website is not yet live as of October 15th, 2026.</p>
+                <p className="description">This website went live on November 11th, 2025.</p>
             </RLMProjCard>
             <RLMProjCard
                 title="AA Tax CPA, LLC - Phoenix, AZ"
@@ -53,7 +60,7 @@ export default function RLMWebsitesGrid() {
                 url="https://neslsoncheese.net"
                 techList="WordPress, Elementor, CSS"
             >
-                <p className="description">This website has been live as of November 4th, 2026.</p>
+                <p className="description">This website went live on November 4th, 2026.</p>
             </RLMProjCard>
             <RLMProjCard
                 title="BrickFire Pizza - Newton, MA"
